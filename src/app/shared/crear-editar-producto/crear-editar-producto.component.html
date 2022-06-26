@@ -1,0 +1,119 @@
+<section id="modal" #modal>
+  <form
+    [formGroup]="forma"
+    (ngSubmit)="crearPPedido()"
+    id="formulario"
+    class="animate__animated animate__faster"
+    #form
+  >
+    <!-- header -->
+    <section id="header">
+      <div id="titulo">
+        <i class="fas fa-marker"></i>
+        <h5>{{ tituloForma }}</h5>
+      </div>
+      <i class="fas fa-times-circle" (click)="cerrarModal()" role="button"></i>
+    </section>
+
+    <!-- datos personales -->
+    <section id="datos">
+      <h6>Información del pedido</h6>
+      <div id="wrap-inputs">
+        <!-- nombre -->
+        <div>
+          <label class="form-label">Nombre del producto:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="3 cajas chicas..."
+            formControlName="nombre"
+            (keyup)="validarNombreProd()"
+          />
+          <label class="warning-label">{{ txtValidaNombreProd }}</label>
+        </div>
+
+        <!-- Cliente -->
+        <div id="div-cliente">
+          <label class="form-label">Cliente:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cliente"
+            placeholder="Nombre del cliente..."
+            (keyup)="obtenerClientesCriterio($event)"
+            [value]="usuario?.nombre"
+            [attr.data-idUsuario]="usuario?._id"
+            formControlName="cliente"
+            #inputCliente
+          />
+          <label class="warning-label">{{ txtValidaCliente }}</label>
+          <div id="placeholder-criterio" #placeCliente>
+            <a
+              *ngFor="let usuario of usuarios?.datas"
+              (click)="selCliente(usuario)"
+              >{{ usuario.nombre }} | {{ usuario.telefono }}</a
+            >
+          </div>
+        </div>
+
+        <!-- descripcion -->
+        <div class="form-group" id="descripcion">
+          <label for="descripcion">Descripción:</label>
+          <textarea
+            class="form-control"
+            id="descripcion"
+            rows="3"
+            placeholder="http://ebay.com..."
+            formControlName="descripcion"
+            (keyup)="validarDescripcion()"
+          ></textarea>
+          <label class="warning-label">{{ txtValidaDes }}</label>
+        </div>
+
+        <!-- precio -->
+        <div>
+          <label class="form-label">Precio:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="precio"
+            formControlName="precio"
+            (keyup)="validaPrecio()"
+          />
+          <label class="warning-label">{{ txtValidaPrecio }}</label>
+        </div>
+
+        <!-- costo devivery -->
+        <div>
+          <label class="form-label">Delivery:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="precio"
+            formControlName="delivery"
+            (keyup)="validaDelivery()"
+          />
+          <label class="warning-label">{{ txtValidaDelivery }}</label>
+        </div>
+
+        <!-- Tipo -->
+        <div>
+          <label class="form-label">Tipo:</label>
+          <select class="form-select" formControlName="tipo">
+            <option value="Pendiente">Pendiente</option>
+            <option value="Entregado">Entregado</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- botones -->
+    <section id="wrap-botones" #wrapBotones>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <button type="button" class="btn btn-danger" (click)="cerrarModal()">
+        Cancelar
+      </button>
+    </section>
+  </form>
+</section>

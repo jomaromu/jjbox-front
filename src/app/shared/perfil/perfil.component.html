@@ -1,0 +1,121 @@
+<app-editar-ver-perfil></app-editar-ver-perfil>
+<section id="wrap-perfil">
+  <section id="wrap-header">
+    <i class="fas fa-user"></i>
+    <h5>Perfil</h5>
+  </section>
+
+  <section id="wrap-info">
+    <section id="wrap-avatar">
+      <img src="../../../assets/profile.png" alt="Avatar" />
+      <div>
+        <p style="margin-top: 10px">{{ usuario?.data?.nombre }}</p>
+      </div>
+      <div
+        id="wrap-botones"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+        <button class="btn btn-primary" id="botonEditar" (click)="abrirModal()">
+          Editar perfil <i class="fas fa-pen-alt"></i>
+        </button>
+        <button
+          class="btn btn-danger botones"
+          (click)="eliminarCuenta(usuario)"
+        >
+          Eliminar cuenta <i class="fas fa-trash-alt"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- <code>{{usuario?.data?.role}}</code> -->
+
+    <section id="wrap-info-detalles">
+      <!-- nombre -->
+
+      <p>Nombre</p>
+      <p>{{ usuario?.data?.nombre }}</p>
+
+      <!-- correo -->
+
+      <p>Correo</p>
+      <p>{{ usuario?.data?.correo }}</p>
+
+      <!-- telefono -->
+
+      <p>Teléfono</p>
+      <p>{{ usuario?.data?.telefono }}</p>
+
+      <!-- direccion -->
+      <p>Dirección</p>
+      <div>
+        {{ usuario?.data?.direccion?.provincia?.name }},
+        {{ usuario?.data?.direccion?.distrito?.name }},
+        {{ usuario?.data?.direccion?.corregimiento?.name }}, ({{
+          usuario?.data?.direccion?.direccion
+        }})
+      </div>
+
+      <!-- cambiar password -->
+
+      <p *ngIf="!ocultarPass">Cambiar contraseña</p>
+      <div *ngIf="!ocultarPass" id="edit-pass">
+        <div id="pass">
+          <span>********</span>
+        </div>
+        <i
+          class="fas fa-pen-alt"
+          id="i-boton"
+          role="button"
+          (click)="cambiarPass($event, usuario?.data?._id)"
+        ></i>
+        <!-- <i class="fas fa-eye" role="button"></i> -->
+      </div>
+    </section>
+  </section>
+
+  <!-- datos casillero -->
+  <section id="wrap-datos-casillero" *ngIf="usuario?.data?.role === 'cliente'">
+    <div class="card">
+      <h5 class="card-header">Tu casillero</h5>
+      <div class="card-body">
+        <table class="table table-hover table-striped">
+          <tbody>
+            <tr>
+              <td class="tittle-table">Nombre completo</td>
+              <td>{{ usuario?.data?.nombre }}(JJBOXPTY)</td>
+            </tr>
+            <tr>
+              <td class="tittle-table">Dirección</td>
+              <td>7854 N.W 45 TH Miami FL 33166</td>
+            </tr>
+            <tr>
+              <td class="tittle-table">Teléfono</td>
+              <td>3055924354</td>
+            </tr>
+            <tr>
+              <td class="tittle-table">Ciudad</td>
+              <td>Miami</td>
+            </tr>
+            <tr>
+              <td class="tittle-table">Estado</td>
+              <td>Florida</td>
+            </tr>
+            <tr>
+              <td class="tittle-table">Código postal</td>
+              <td>33166</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-footer">
+        Recuerde poner entre paréntesis, seguido de su nombre; la palabra
+        <strong>(JJBOXPTY).</strong>
+      </div>
+    </div>
+  </section>
+</section>

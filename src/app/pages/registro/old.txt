@@ -1,0 +1,45 @@
+<a role="button" routerLink="/inicio">< Ir a inicio</a>
+      <h5>Registrarme</h5>
+      <div id="wrap-inputs">
+        <!-- correo -->
+        <div>
+          <label *ngIf="banderaCorreo">{{ textoValidarCorreo }}</label>
+          <input
+            class="form-control"
+            type="text"
+            placeholder="algo@algo.com"
+            formControlName="correo"
+            (keyup)="(validarCorreo)"
+          />
+        </div>
+
+        <!-- password -->
+        <div formGroupName="password">
+          <div>
+            <label *ngIf="banderaPass1">{{ textoValidarPass1 }}</label>
+            <input
+              class="form-control"
+              type="password"
+              placeholder="Ingrese contraseña"
+              formControlName="pass1"
+              (keyup)="(validarPass1)"
+            />
+          </div>
+
+          <!-- repetir correo -->
+          <div>
+            <label *ngIf="banderaPass2">{{ textoValidarPass2 }}</label>
+            <input
+              class="form-control"
+              type="password"
+              placeholder="Repita contraseña"
+              formControlName="pass2"
+              (keyup)="(validarPass2)"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" #btnRegistro>
+          Registrarme
+        </button>
+        <a role="button" type="submit" routerLink="/entrar">Iniciar Sesión</a>
+      </div>

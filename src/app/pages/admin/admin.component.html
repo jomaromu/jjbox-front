@@ -1,0 +1,86 @@
+<section id="wrap-admin" #wrapper>
+  <!-- sidebar -->
+  <section id="wrap-sidebar" #sidebar>
+    <!-- Logo - nombre -->
+    <section id="wrap-logo-nombre">
+      <img
+        src="../../../assets/logo-jjboxpty-blanco.png"
+        alt="Logo"
+        role="button"
+        routerLink="/inicio"
+      />
+      <p>JJBOXPTY</p>
+    </section>
+
+    <!-- Nombre - Avatar -->
+    <section id="wrap-nombre-avatar">
+      <img src="../../../assets/profile.png" alt="Avatar" />
+      <p>{{ usuario?.data?.nombre }}</p>
+    </section>
+
+    <!-- items -->
+    <section id="wrap-items">
+      <!-- clientes -->
+      <div *ngIf="usuario?.data?.role === 'admin'">
+        <i class="fas fa-users"></i>
+        <a
+          routerLink="/admin/clientes"
+          routerLinkActive="color-blanco"
+          role="button"
+          >Clientes</a
+        >
+      </div>
+
+      <!-- productos pedidos -->
+      <div>
+        <i class="fas fa-cart-arrow-down"></i>
+        <a
+          routerLink="/admin/productos-pedidos"
+          routerLinkActive="color-blanco"
+          role="button"
+          >Productos pedidos</a
+        >
+      </div>
+
+      <!-- reportes -->
+      <div *ngIf="usuario?.data?.role === 'admin'">
+        <i class="fas fa-chart-line"></i>
+        <a
+          routerLink="/admin/reportes"
+          routerLinkActive="color-blanco"
+          role="button"
+          >Reportes</a
+        >
+      </div>
+
+      <!-- mi perfil -->
+      <div>
+        <i class="fas fa-user"></i>
+        <a
+          routerLink="/admin/mi-perfil"
+          routerLinkActive="color-blanco"
+          role="button"
+          >Mi perfil</a
+        >
+      </div>
+
+      <!-- notificaciones -->
+      <!-- <div>
+        <i class="fas fa-bell"></i>
+        <a role="button">Notificaciones</a>
+      </div> -->
+
+      <div>
+        <i class="fas fa-arrow-circle-right"></i>
+        <a routerLinkActive="color-blanco" role="button" (click)="salir()"
+          >Salir</a
+        >
+      </div>
+    </section>
+  </section>
+
+  <!-- rutas -->
+  <section id="wrap-rutas" #wrapRutas>
+    <router-outlet></router-outlet>
+  </section>
+</section>

@@ -1,0 +1,123 @@
+<nav id="navbar">
+  <div id="wrap-nav1">
+    <div id="wrap-menu1">
+      <ul class="wrap-items1">
+        <li>
+          <i class="fas fa-phone-alt"></i>
+          <span>Contáctenos: {{ datosEstaticos.telefono }}</span>
+        </li>
+        <li>
+          <i class="fas fa-at"></i>
+          <span>{{ datosEstaticos.correo }}</span>
+        </li>
+      </ul>
+
+      <ul class="wrap-items1">
+        <li>Síguenos</li>
+        <li>
+          <a [href]="datosEstaticos.facebook" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a [href]="datosEstaticos.instagram" target="_blank"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </li>
+        <li>
+          <a [href]="datosEstaticos.twitter" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="wrap-nav2">
+    <img src="../../../assets/logo-jjboxpty.png" alt="Logo" />
+    <div id="wrap-menu2">
+      <ul>
+        <li
+          class="item-activo"
+          routerLink="/inicio"
+          routerLinkActive="item-active"
+        >
+          INICIO
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/como-importar"
+          routerLinkActive="item-active"
+        >
+          COMO IMPORTAR
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/contacto"
+          routerLinkActive="item-active"
+        >
+          CONTACTO
+        </li>
+      </ul>
+      <ul>
+        <li #btnRegistro>REGISTRARME</li>
+        <li class="item-activo" #btnSalir>ENTRAR</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="navbar-movil" #navbarMovil>
+  <img src="../../../assets/logo-jjboxpty.png" alt="JJBOXPTY" />
+  <i class="fas fa-bars" (click)="menuBars()"></i>
+
+  <div id="fondo" class="animate__animated animate__faster" #fondo>
+    <i class="fas fa-times" (click)="cerrarMenuMovil()"></i>
+
+    <div id="wrap-items-movil-menu">
+      <ul id="wrap-menu-movil">
+        <li
+          class="item-activo"
+          routerLink="/inicio"
+          routerLinkActive="item-active"
+        >
+          INICIO
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/como-importar"
+          routerLinkActive="item-active"
+        >
+          COMO IMPORTAR
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/contacto"
+          routerLinkActive="item-active"
+        >
+          CONTACTO
+        </li>
+        <li routerLink="/registro" #btnNavReg>REGISTRARME</li>
+        <li class="item-activo" #btnNavSalir>ENTRAR</li>
+      </ul>
+
+      <ul id="ul-wrap-redes-movil">
+        <li>
+          <a [href]="datosEstaticos.facebook" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a [href]="datosEstaticos.instagram" target="_blank"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </li>
+        <li>
+          <a [href]="datosEstaticos.twitter" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

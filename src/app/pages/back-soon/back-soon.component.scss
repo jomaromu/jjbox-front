@@ -1,0 +1,33 @@
+@media screen and (max-width: 1215px) {
+
+  div#wrap-under-construction>img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 577px) {
+
+  div#wrap-under-construction>img {
+    width: 90%;
+  }
+  div#wrap-under-construction>h1 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+}
+
+#wrap-under-construction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  img {
+    width: 50%;
+  }
+  h1, h4 {
+    padding: 20px;
+    text-align: center;
+  }
+}

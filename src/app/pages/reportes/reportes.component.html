@@ -1,0 +1,77 @@
+<app-menu-sidebar></app-menu-sidebar>
+<section id="wrap-reportes">
+  <!-- conteo general -->
+  <section id="wrap-conteo">
+    <section
+      id="clientes-general"
+      class="conteo-general shadow rounded"
+      *ngFor="let conteo of dataConteo"
+    >
+      <p>{{ conteo.titulo }}</p>
+      <p>{{ conteo.cantidad }}</p>
+      <span id="badge" [ngStyle]="{ color: conteo.colorBarra }">{{
+        conteo.tiempo
+      }}</span>
+      <span id="barra" [ngStyle]="{ background: conteo.colorBarra }"></span>
+    </section>
+  </section>
+
+  <!-- ventas totales chart -->
+  <section id="wrap-chart-ventas-general" class="shadow">
+    <div>
+      <canvas
+        baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [legend]="barChartLegend"
+        [type]="barChartType"
+      >
+      </canvas>
+    </div>
+  </section>
+
+  <section id="wrap-tabla-sel-ventas">
+    <h4>Ventas por búsqueda</h4>
+    <section id="wrap-busqueda">
+      <div class="dates"><p>Desde:</p></div>
+      <div class="dates dates-inputs">
+        <input type="date" id="fechaDesde" [value]="fechaDesde" />
+      </div>
+      <div class="dates"><p>Hasta:</p></div>
+      <div class="dates dates-inputs">
+        <input type="date" id="fechaHasta" [value]="fechaDesde" />
+      </div>
+      <div class="dates">
+        <i class="fas fa-search" (click)="obtenerBusquedaFechas()"></i>
+      </div>
+    </section>
+    <table class="table table-hover shadow">
+      <thead>
+        <tr>
+          <th scope="col">Fecha</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Cliente</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Costo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pedido of pedidos">
+          <td>{{ pedido.fecha }}</td>
+          <td>{{ pedido.nombre }}</td>
+          <td>{{ pedido.cliente }}</td>
+          <td>{{ pedido.tipo }}</td>
+          <td>{{ pedido.costo | currency }}</td>
+        </tr>
+
+        <tr style="font-size: 1.5rem; color: black; font-weight: 800">
+          <td colspan="4" style="text-align: right">Total:</td>
+          <td>{{ totalVentas | currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</section>
+
+<!-- en monto, sumar el delivery
+sacar solo los que son entregados  -->

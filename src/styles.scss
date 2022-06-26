@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@900&display=swap");
+@import "swiper/scss";
+@import "swiper/scss/pagination";
+@import "swiper/scss/navigation";
+@import "swiper/scss/effect-cube";
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(245, 246, 255);
+  height: 100%;
+  position: relative !important;
+}
+
+$background-modal: rgba(0, 0, 0, 0.3);
+
+$gray: rgb(240, 240, 240, 0.5);
+$fuente-gris: rgb(78, 78, 78);
+$page-width: 70%;
+$space-icons: 7px;
+$font-size: 1rem;
+$font-family-principal: "Lato", sans-serif;
+$color-principal: rgb(0, 19, 152);
+$border-radius-general: 8px;
+$alto-logo: 100px;
+$box-shadow: 2px 0px 4px
+  lighten(
+    $color: black,
+    $amount: 80,
+  );
+$ancho-sidebar: 250px;
+
+$alto-nav: calc(60px + 115px);
+
+%font-style-principal {
+  font-family: $font-family-principal;
+  font-weight: bold;
+  color: rgba($color: #070707, $alpha: 0.8);
+}
+
+@mixin fuente-principal($family, $color, $peso) {
+  font-family: $family, sans-serif;
+  color: $color;
+  font-weight: $peso;
+  // font-size: $font-size;
+}

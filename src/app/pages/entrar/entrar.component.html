@@ -1,0 +1,50 @@
+<section id="wrap-registro">
+  <!-- img -->
+  <section class="elementos" id="wrap-img">
+    <img src="../../../assets/login.jpg" alt="Entrar" />
+  </section>
+
+  <!-- formulario -->
+  <section class="elementos" id="wrap-formulario">
+    <form [formGroup]="forma" (ngSubmit)="entrar()">
+      <a role="button" routerLink="/inicio">< Ir a inicio</a>
+      <h5>Entrar al sistema</h5>
+      <div id="wrap-inputs">
+        <label *ngIf="banderaCorreo">{{ textoValidarCorreo }}</label>
+        <input
+          class="form-control"
+          type="text"
+          placeholder="algo@algo.com"
+          formControlName="correo"
+          (keyup)="(validarCorreo)"
+        />
+
+        <label *ngIf="banderaPass1">{{ textoValidarPass1 }}</label>
+        <input
+          class="form-control"
+          type="password"
+          placeholder="Ingrese contraseña"
+          formControlName="password"
+          (keyup)="(validarPass1)"
+        />
+        <button
+          type="button"
+          class="btn btn-primary"
+          (click)="entrar()"
+          #btnEntrar
+        >
+          Entrar
+        </button>
+        <a role="button" routerLink="/registro">Registrarme</a>
+      </div>
+
+      <div id="wrap-redes">
+        <p>Entrar utilizando</p>
+        <div>
+          <i role="button" class="fab fa-google"></i>
+          <i role="button" class="fab fa-facebook"></i>
+        </div>
+      </div>
+    </form>
+  </section>
+</section>

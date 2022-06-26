@@ -1,0 +1,200 @@
+<app-signature></app-signature>
+
+<!-- nuevo producto pedido -->
+<section
+  *ngIf="datosTabla?.tipoTabla === 'pPedidos' && usuario.role === 'admin'"
+  id="wrap-btn-nuevo"
+  role="button"
+  (click)="crearEditarPedido('crear', '')"
+>
+  <i class="fas fa-plus"></i>
+</section>
+
+<!-- titulo -->
+<section id="wrap-general">
+  <section id="wrap-header">
+    <i [class]="datosTabla?.icon"></i>
+    <h5>{{ datosTabla?.tituloTabla }}</h5>
+  </section>
+
+  <section id="wrap-tabla">
+    <section id="wrap-filtro-nuevo">
+      <!-- filtro -->
+      <section *ngIf="datosTabla?.tipoTabla === 'pPedidos'" id="wrap-filtros">
+        <!-- <section id="wrap-filtros"> -->
+        <div class="input-group input-group-sm">
+          <span class="input-group-text" id="inputGroup-sizing-sm">Desde</span>
+          <input
+            id="desde"
+            type="text"
+            class="form-control"
+            value="1"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm"
+            (keyup)="desde($event)"
+          />
+        </div>
+
+        <div class="input-group input-group-sm">
+          <span class="input-group-text" id="inputGroup-sizing-sm">Hasta</span>
+          <input
+            id="hasta"
+            type="text"
+            class="form-control"
+            value="10"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm"
+            (keyup)="hasta($event)"
+          />
+        </div>
+        <!-- </section> -->
+      </section>
+    </section>
+
+    <!-- tabla clientes -->
+    <table
+      class="table table-hover table-striped"
+      *ngIf="datosTabla?.tipoTabla === 'clientes'"
+    >
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Correo</th>
+          <th>Estado</th>
+          <th>controles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let usuario of datosTabla?.data; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ usuario.idReferencia }}</td>
+          <td>{{ usuario.nombre }}</td>
+          <td>{{ usuario.telefono }}</td>
+          <td>{{ usuario.correo }}</td>
+          <td>
+            <div class="form-check form-switch" style="margin-left: 40px">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                [checked]="usuario.estado"
+                (change)="estadoUsuario($event, usuario)"
+              />
+            </div>
+          </td>
+          <td>
+            <!-- routerLink="/admin/ver-cliente" -->
+            <div id="wrap-controles">
+              <i
+                class="fas fa-eye"
+                role="button"
+                (click)="editarUsuario(usuario)"
+              ></i>
+              <i
+                class="fas fa-pen-alt"
+                role="button"
+                (click)="editarVerCliente(usuario)"
+              ></i>
+              <i class="fas fa-trash-alt" (click)="eliminarCliente(usuario)"role="button"></i>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- tabla productos pedidos -->
+    <table
+      class="table table-hover table-striped"
+      *ngIf="datosTabla?.tipoTabla === 'pPedidos'"
+    >
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ID</th>
+          <!-- <th>Nombre</th> -->
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th *ngIf="usuario.role === 'admin'">Cliente</th>
+          <th>Tipo</th>
+          <th>Delivery</th>
+          <th>Total</th>
+          <th>Controles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pPedido of datosTabla.data; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ pPedido?.idReferencia }}</td>
+          <!-- <td>{{ pPedido?.nombre }}</td> -->
+          <td style="max-width: 180px; word-wrap: break-word">
+            {{ pPedido?.descripcion }}
+          </td>
+          <td>{{ pPedido?.precio | currency: "USD":"symbol" }}</td>
+          <td *ngIf="usuario.role === 'admin'">
+            {{ pPedido?.cliente[0]?.correo }}
+          </td>
+          <td>
+            <span
+              *ngIf="pPedido.tipo === 'Pendiente'"
+              class="badge alert-danger"
+              style="padding: 7px"
+            >
+              {{ pPedido?.tipo }}
+            </span>
+            <span
+              *ngIf="pPedido.tipo === 'Entregado'"
+              class="badge alert-success"
+              style="padding: 7px"
+            >
+              {{ pPedido?.tipo }}
+            </span>
+          </td>
+          <td>{{ pPedido?.delivery | currency: "USD":"symbol" }}</td>
+          <td>
+            {{ pPedido?.precio + pPedido.delivery | currency: "USD":"symbol" }}
+          </td>
+          <td>
+            <div id="wrap-controles">
+              <i
+                class="fas fa-eye"
+                role="button"
+                (click)="crearEditarPedido('editar', pPedido._id)"
+                *ngIf="
+                  usuario.role === 'cliente' && pPedido.tipo === 'Entregado'
+                "
+              ></i>
+              <i
+                class="fas fa-pen-alt"
+                role="button"
+                (click)="crearEditarPedido('editar', pPedido._id)"
+                *ngIf="usuario.role === 'admin' && pPedido.tipo === 'Pendiente'"
+              ></i>
+              <i
+                class="fas fa-eye"
+                role="button"
+                (click)="crearEditarPedido('editar', pPedido._id)"
+                *ngIf="usuario.role === 'admin' && pPedido.tipo === 'Entregado'"
+              ></i>
+              <i
+                class="fas fa-trash-alt"
+                role="button"
+                style="color: tomato"
+                *ngIf="usuario.role === 'admin' && pPedido.tipo === 'Pendiente'"
+                (click)="eliminarPpedido(pPedido._id)"
+              ></i>
+              <i
+                class="fas fa-file-invoice"
+                role="button"
+                *ngIf="usuario.role === 'admin' && pPedido.tipo === 'Entregado'"
+                (click)="abrirSignature(pPedido._id)"
+              ></i>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</section>

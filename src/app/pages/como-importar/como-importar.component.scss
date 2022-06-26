@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import "../../../styles.scss";
+
+@media screen and(max-width: 1400px) {
+  /* ======================================================= BENEFICIOS ======================================================= */
+  section#wrap-beneficios {
+    width: 80%;
+  }
+
+  /* ======================================================= PASOS PARA IMPORTAR ======================================================= */
+  section#wrap-pasos {
+    width: 80%;
+  }
+
+  div.ele {
+    // border: 1px solid blue;
+    width: 35% !important;
+  }
+}
+
+@media screen and(max-width: 1026px) {
+  /* ======================================================= PASOS PARA IMPORTAR ======================================================= */
+  section#wrap-pasos {
+    width: 90%;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  /* ======================================================= COTIZACION ======================================================= */
+
+  section#wrap-cotizacion {
+    // border: 1px solid red;
+    flex-direction: column;
+    height: auto;
+  }
+
+  div#wrap-img-cot img {
+    display: none;
+  }
+
+  div#wrap-calc {
+    // border: 1px solid green;
+    width: 90% !important;
+  }
+}
+
+@media screen and(max-width: 992px) {
+  /* ======================================================= BENEFICIOS ======================================================= */
+  section#wrap-beneficios {
+    // border: 1px solid blue;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    div.wrap-beneficio-completo:first-child {
+      // border: 1px solid green;
+      margin-bottom: 50px;
+    }
+
+    div.wrap-beneficio-completo {
+      width: 100%;
+    }
+  }
+
+  /* ======================================================= PASOS PARA IMPORTAR ======================================================= */
+  div.wrap-paso {
+    // border: 1px solid red;
+    flex-direction: column !important;
+  }
+
+  div.wrap-paso:nth-child(2n) {
+    // border: 1px solid red;
+    flex-direction: column !important;
+    // margin: 75px 0;
+  }
+
+  div.ele {
+    // border: 1px solid blue;
+    width: 75% !important;
+  }
+
+  div.wrap-item {
+    // border: 1px solid blue;
+    margin-bottom: 45px !important;
+
+    p.item-pasos {
+      width: calc($font-size * 6) !important;
+      height: calc($font-size * 6) !important;
+      font-size: calc($font-size * 4) !important;
+    }
+  }
+
+  /* ======================================================= COTIZACION ======================================================= */
+
+  section#wrap-cotizacion {
+    // border: 1px solid red;
+    width: 90%;
+  }
+
+  div#wrap-img-cot img {
+    display: none;
+  }
+
+  div#wrap-calc {
+    // border: 1px solid green;
+    width: 70% !important;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  /* ======================================================= VIDEO ======================================================= */
+
+  div#wrap-titulos {
+    // border: 1px solid blue;
+    h1 {
+      padding: 15px 60px;
+      margin-bottom: 25px;
+      font-size: calc($font-size * 3) !important;
+    }
+    h4 {
+      font-size: calc($font-size * 2) !important;
+    }
+  }
+
+  /* ======================================================= BENEFICIOS ======================================================= */
+  section#wrap-beneficios {
+    // border: 1px solid blue;
+    width: 90%;
+  }
+
+  /* ======================================================= COTIZACION ======================================================= */
+
+  div#wrap-calc {
+    // border: 1px solid green;
+    width: 80% !important;
+  }
+}
+
+@media screen and(max-width: 576px) {
+  /* ======================================================= VIDEO ======================================================= */
+
+  section#wrap-video {
+    height: calc(100vh * 0.5) !important;
+  }
+  div#wrap-titulos {
+    width: 90%;
+    h1 {
+      padding: 15px 60px;
+      margin-bottom: 25px;
+      font-size: calc($font-size * 2) !important;
+    }
+    h4 {
+      font-size: calc($font-size * 1.5) !important;
+    }
+  }
+
+  /* ======================================================= PASOS PARA IMPORTAR ======================================================= */
+
+  div.ele {
+    // border: 1px solid blue;
+    width: 95% !important;
+  }
+
+  /* ======================================================= COTIZACION ======================================================= */
+
+  div#wrap-calc {
+    // border: 1px solid green;
+    width: 100% !important;
+  }
+
+  div#wrap-calc div#calculadora {
+     width: 100% !important;
+  }
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../assets/FONDOS/fondo-principal.jpg");
+  background-clip: border-box;
+  background-repeat: repeat-y;
+}
+
+/* ======================================================= VIDEO ======================================================= */
+
+#wrap-video {
+  // border: 3px solid brown;
+  width: 100%;
+  height: calc(100vh - 170px);
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // aspect-ratio: 16/9;
+
+  #wrap-titulos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      @include fuente-principal($font-family-principal, white, 800);
+      background-color: darken($color: $gray, $amount: 10);
+      padding: 20px 80px;
+      margin-bottom: 25px;
+      font-size: calc($font-size * 3.5);
+      text-align: center;
+    }
+    h4 {
+      @include fuente-principal($font-family-principal, white, 800);
+      font-size: calc($font-size * 2.3);
+      text-align: center;
+    }
+  }
+}
+
+/* ======================================================= BENEFICIOS ======================================================= */
+
+#wrap-beneficios {
+  // border: 1px solid red;
+  margin-top: 150px;
+  width: $page-width;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  // @include fuente-principal($font-family-principal, black, 800);
+
+  .wrap-beneficio-completo {
+    // border: 1px solid green;
+    width: 48%;
+
+    h3 {
+      @include fuente-principal(
+        Poppins,
+        lighten($color: rgb(0, 0, 0), $amount: 20),
+        400
+      );
+      margin-bottom: 30px;
+
+      span {
+        color: lighten($color: $color-principal, $amount: 20);
+      }
+    }
+
+    .wrap-beneficio {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-bottom: 25px;
+
+      .item {
+        background-color: $color-principal;
+        padding: 15px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        font-size: calc($font-size * 1.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+        @include fuente-principal(
+          $font-family-principal,
+          lighten($color: $fuente-gris, $amount: 70),
+          400
+        );
+      }
+
+      .wrap-detalle-beneficio {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        .titulo {
+          @include fuente-principal(
+            $font-family-principal,
+            lighten($color: rgb(0, 0, 0), $amount: 0),
+            600
+          );
+        }
+        .desc {
+          @include fuente-principal(
+            $font-family-principal,
+            lighten($color: rgb(0, 0, 0), $amount: 50),
+            400
+          );
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================= PASOS PARA IMPORTAR ======================================================= */
+
+#wrap-pasos {
+  // border: 1px solid red;
+  width: $page-width;
+  margin-top: 150px;
+
+  h3 {
+    @include fuente-principal(
+      Poppins,
+      lighten($color: rgb(0, 0, 0), $amount: 20),
+      400
+    );
+    margin-bottom: 70px;
+
+    span {
+      color: lighten($color: $color-principal, $amount: 20);
+    }
+    border-bottom: 2px solid $color-principal;
+    width: 320px;
+    padding-bottom: 10px;
+  }
+
+  .wrap-paso {
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    .ele {
+      // border: 1px solid red;
+      width: 30%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .item-pasos {
+      background-color: $color-principal;
+      padding: 15px;
+      width: calc($font-size * 8 + 15px);
+      height: calc($font-size * 8 + 15px);
+      border-radius: 50%;
+      font-size: calc($font-size * 8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include fuente-principal(
+        Permanent Marker,
+        lighten($color: $fuente-gris, $amount: 70),
+        400
+      );
+    }
+
+    .tarjeta-pasos {
+      // border: 1px solid red;
+      min-height: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      padding: 50px;
+
+      img {
+        // width: 270px;
+        height: 190px;
+      }
+
+      .border-tarjetas {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      #border-top-right {
+        border: 2px solid black;
+        border-left: none;
+        border-bottom: none;
+        top: 0;
+        right: 0;
+        width: 30%;
+        height: 30%;
+      }
+      #border-bottom-left {
+        border: 2px solid black;
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        height: 30%;
+        border-top: none;
+        border-right: none;
+      }
+
+      h6 {
+        @include fuente-principal(
+          $font-family-principal,
+          lighten($color: $fuente-gris, $amount: 0),
+          800
+        );
+        text-align: center;
+
+        font-size: calc($font-size * 1.4);
+      }
+    }
+  }
+
+  .wrap-paso:nth-child(2n) {
+    flex-direction: row-reverse;
+    margin: 75px 0;
+  }
+}
+
+/* ======================================================= COTIZACION ======================================================= */
+
+#wrap-cotizacion {
+  // border: 1px solid red;
+  width: $page-width;
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 125px;
+  font-family: $font-family-principal;
+
+  .cot {
+    // border: 1px solid blue;
+    width: 50%;
+  }
+
+  #wrap-img-cot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+
+    img {
+      height: 80%;
+      object-fit: cover;
+    }
+  }
+
+  #wrap-calc {
+    // border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 690px;
+    padding: 25px;
+    border-radius: $border-radius-general;
+    button {
+      width: 70%;
+      padding: 7px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    h4 {
+      font-weight: 800;
+    }
+  }
+  #wrap-calc img {
+    width: calc($alto-logo * 1.5);
+  }
+
+  #wrap-calc #calculadora {
+    // border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    height: 250px;
+    width: 70%;
+  }
+
+  input,
+  select {
+    padding: 5px;
+  }
+}

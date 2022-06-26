@@ -1,0 +1,166 @@
+<section id="wrap-registro">
+  <!-- img -->
+  <section class="elementos" id="wrap-img">
+    <img src="../../../assets/registro.jpg" alt="Entrar" />
+  </section>
+
+  <!-- formulario -->
+  <section class="elementos" id="wrap-formulario">
+    <a role="button" id="txtInicio" routerLink="/inicio">< Ir a inicio</a>
+    <h5>Registrarme</h5>
+    <form [formGroup]="forma" (ngSubmit)="registro()">
+      <!-- nombre -->
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="nombre"
+          formControlName="nombre"
+          placeholder="Johnny"
+        />
+        <label class="lblWarning" *ngIf="!validarNombre.estado">{{
+          validarNombre.mensaje
+        }}</label>
+      </div>
+
+      <!-- apellido -->
+      <div class="mb-3">
+        <label for="apellido" class="form-label">Apellido</label>
+        <input
+          type="text"
+          class="form-control"
+          id="apellido"
+          formControlName="apellido"
+          placeholder="Rosero"
+        />
+        <label class="lblWarning" *ngIf="!validarApellido.estado">{{
+          validarApellido.mensaje
+        }}</label>
+      </div>
+
+      <!-- telefono -->
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input
+          type="text"
+          class="form-control"
+          id="telefono"
+          formControlName="telefono"
+          (keyup)="(validarTelefono)"
+          placeholder="60000000"
+        />
+        <label class="lblWarning" *ngIf="!validarTelefono.estado">{{
+          validarTelefono.mensaje
+        }}</label>
+      </div>
+
+      <!-- provincia -->
+      <div class="mb-3">
+        <label for="provincia" class="form-label">Provincia</label>
+        <select
+          class="form-select"
+          id="provincia"
+          (change)="cargarProvincias()"
+          formControlName="provincia"
+        >
+          <option *ngFor="let provincia of provincias" [value]="provincia.id">
+            {{ provincia.name }}
+          </option>
+        </select>
+      </div>
+
+      <!-- distrito -->
+      <div class="mb-3">
+        <label for="distrito" class="form-label">Distrito</label>
+        <select class="form-select" id="distrito" formControlName="distrito">
+          <option
+            *ngFor="let distrito of distritos"
+            data-nombre="distrito.name"
+            [value]="distrito.id"
+          >
+            {{ distrito.name }}
+          </option>
+        </select>
+      </div>
+
+      <!-- correo -->
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo</label>
+        <input
+          type="text"
+          class="form-control"
+          id="correo"
+          formControlName="correo"
+          placeholder="algo@algo.com"
+        />
+        <label class="lblWarning" *ngIf="!validarCorreo.estado">{{
+          validarCorreo.mensaje
+        }}</label>
+      </div>
+
+      <!-- passwords -->
+      <span id="wrap-pass" formGroupName="password">
+        <!-- password 1 -->
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            formControlName="pass1"
+            placeholder="********"
+          />
+        </div>
+
+        <!-- password 2 -->
+        <div class="mb-3">
+          <label for="password2" class="form-label">Confirmar contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password2"
+            formControlName="pass2"
+            placeholder="********"
+          />
+        </div>
+        <label
+          class="lblWarning"
+          style="position: absolute; bottom: -5px; right: 0"
+          *ngIf="!validarPass.estado"
+          >{{ validarPass.mensaje }}</label
+        >
+      </span>
+
+      <!-- direccion -->
+      <div class="mb-3" id="wrap-direccion">
+        <label for="direccion" class="form-label">Dirección</label>
+        <textarea
+          class="form-control"
+          id="direccion"
+          rows="2"
+          formControlName="direccion"
+          placeholder="Av. 43 Sur Casa No 5"
+        ></textarea>
+        <label class="lblWarning" *ngIf="!validarDireccion.estado">{{
+          validarDireccion.mensaje
+        }}</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary" #btnRegistro>
+        Registrarme
+      </button>
+      <a role="button" id="txtEntrar" type="submit" routerLink="/entrar"
+        >Iniciar Sesión</a
+      >
+
+      <div id="wrap-redes">
+        <p>Registrarme utilizando</p>
+        <div>
+          <i role="button" class="fab fa-google"></i>
+          <i role="button" class="fab fa-facebook"></i>
+        </div>
+      </div>
+    </form>
+  </section>
+</section>

@@ -1,0 +1,135 @@
+@import "../../../styles.scss";
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+$color-fuente-sidebar: darken(
+  $color: white,
+  $amount: 8,
+);
+
+.color-blanco {
+  color: white;
+  font-weight: 600;
+}
+
+#wrap-admin {
+  // border: 1px solid red;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  // height: 100%;
+  min-height: 100%;
+  font-family: $font-family-principal;
+  background-color: rgb(245, 246, 255);
+  // overflow-y: scroll;
+}
+
+#wrap-sidebar {
+  // border: 1px solid green;
+  background-color: $color-principal;
+  width: $ancho-sidebar !important;
+  // height: 100% !important;
+  min-height: 100%;
+  color: $color-fuente-sidebar;
+  box-shadow: $box-shadow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // padding: 18px;
+
+  #wrap-logo-nombre {
+    // border-top: 1px solid $color-fuente-sidebar;
+    border-bottom: 1px solid $color-fuente-sidebar;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p {
+      font-size: 1.2rem;
+    }
+    img {
+      width: 60px;
+    }
+  }
+
+  #wrap-nombre-avatar {
+    border-bottom: 1px solid $color-fuente-sidebar;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p {
+      font-size: 1rem;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+  #wrap-items {
+    // border: 1px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    a {
+      // border: 1px solid green;
+      color: $color-fuente-sidebar !important;
+      align-self: flex-start;
+      position: relative;
+      width: 100%;
+    }
+
+    a::after {
+      // border: 1px solid yellow;
+      position: absolute;
+      content: ">";
+      right: 0;
+      font-family: "Karla", sans-serif;
+      font-size: 1rem;
+    }
+
+    i {
+      // border: 1px solid green;
+      font-size: 1rem;
+    }
+
+    i:last-child {
+      // border: 1px solid green;
+      display: flex;
+      align-self: flex-end;
+    }
+
+    i:first-child {
+      margin-right: 10px;
+    }
+
+    div {
+      // border: 1px solid yellow;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+    }
+
+    div:hover {
+      color: white;
+      font-weight: 600;
+    }
+  }
+}
+
+#wrap-rutas {
+  // border: 1px solid green;
+  position: relative;
+  width: calc(100% - $ancho-sidebar);
+  margin-left: $ancho-sidebar;
+  overflow: hidden;
+}

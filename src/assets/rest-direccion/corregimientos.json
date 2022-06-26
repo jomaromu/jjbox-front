@@ -1,0 +1,3232 @@
+﻿[
+    {
+        "id": "1",
+        "name": "Bocas del Toro (Cabecera)",
+        "district_id": "1"
+    },
+    {
+        "id": "2",
+        "name": "Bastimentos",
+        "district_id": "1"
+    },
+    {
+        "id": "3",
+        "name": "Cauchero",
+        "district_id": "1"
+    },
+    {
+        "id": "4",
+        "name": "Punta Laurel ",
+        "district_id": "1"
+    },
+    {
+        "id": "5",
+        "name": "Tierra Oscura",
+        "district_id": "1"
+    },
+    {
+        "id": "6",
+        "name": "Changuinola (Cabecera)",
+        "district_id": "2"
+    },
+    {
+        "id": "7",
+        "name": "Almirante",
+        "district_id": "2"
+    },
+    {
+        "id": "8",
+        "name": "Guabito",
+        "district_id": "2"
+    },
+    {
+        "id": "9",
+        "name": "Teribe",
+        "district_id": "2"
+    },
+    {
+        "id": "10",
+        "name": "Valle del Risco",
+        "district_id": "2"
+    },
+    {
+        "id": "11",
+        "name": "El Empalme",
+        "district_id": "2"
+    },
+    {
+        "id": "12",
+        "name": "Las Tablas",
+        "district_id": "2"
+    },
+    {
+        "id": "13",
+        "name": "CochigrÃ³",
+        "district_id": "2"
+    },
+    {
+        "id": "14",
+        "name": "La Gloria",
+        "district_id": "2"
+    },
+    {
+        "id": "15",
+        "name": "Las Delicias.",
+        "district_id": "2"
+    },
+    {
+        "id": "16",
+        "name": "Nance del Risco",
+        "district_id": "2"
+    },
+    {
+        "id": "17",
+        "name": "Valle de Agua Arriba",
+        "district_id": "2"
+    },
+    {
+        "id": "18",
+        "name": "ChiriquÃ­ Grande (Cabecera)",
+        "district_id": "3"
+    },
+    {
+        "id": "19",
+        "name": "Miramar",
+        "district_id": "3"
+    },
+    {
+        "id": "20",
+        "name": "Punta PeÃ±a",
+        "district_id": "3"
+    },
+    {
+        "id": "21",
+        "name": "Punta Robalo",
+        "district_id": "3"
+    },
+    {
+        "id": "22",
+        "name": "Rambala",
+        "district_id": "3"
+    },
+    {
+        "id": "23",
+        "name": "Bajo Cedro",
+        "district_id": "3"
+    },
+    {
+        "id": "24",
+        "name": "Aguadulce (Cabecera)",
+        "district_id": "4"
+    },
+    {
+        "id": "25",
+        "name": "El Cristo",
+        "district_id": "4"
+    },
+    {
+        "id": "26",
+        "name": "El Roble",
+        "district_id": "4"
+    },
+    {
+        "id": "27",
+        "name": "PocrÃ­",
+        "district_id": "4"
+    },
+    {
+        "id": "28",
+        "name": "Barrios Unidos",
+        "district_id": "4"
+    },
+    {
+        "id": "29",
+        "name": "AntÃ³n (Cabecera)",
+        "district_id": "5"
+    },
+    {
+        "id": "30",
+        "name": "Cabuya",
+        "district_id": "5"
+    },
+    {
+        "id": "31",
+        "name": "El ChirÃº",
+        "district_id": "5"
+    },
+    {
+        "id": "32",
+        "name": "El Retiro",
+        "district_id": "5"
+    },
+    {
+        "id": "33",
+        "name": "El Valle",
+        "district_id": "5"
+    },
+    {
+        "id": "34",
+        "name": "Juan DÃ­az",
+        "district_id": "5"
+    },
+    {
+        "id": "35",
+        "name": "RÃ­o Hato",
+        "district_id": "5"
+    },
+    {
+        "id": "36",
+        "name": "San Juan de Dios",
+        "district_id": "5"
+    },
+    {
+        "id": "37",
+        "name": "Santa Rita",
+        "district_id": "5"
+    },
+    {
+        "id": "38",
+        "name": "Caballero",
+        "district_id": "5"
+    },
+    {
+        "id": "39",
+        "name": "La Pintada (Cabecera)",
+        "district_id": "6"
+    },
+    {
+        "id": "40",
+        "name": "El Harino",
+        "district_id": "6"
+    },
+    {
+        "id": "41",
+        "name": "El Potrero",
+        "district_id": "6"
+    },
+    {
+        "id": "42",
+        "name": "Llano Grande",
+        "district_id": "6"
+    },
+    {
+        "id": "43",
+        "name": "Piedras Gordas",
+        "district_id": "6"
+    },
+    {
+        "id": "44",
+        "name": "Las Lomas",
+        "district_id": "6"
+    },
+    {
+        "id": "45",
+        "name": "Llano Norte",
+        "district_id": "6"
+    },
+    {
+        "id": "46",
+        "name": "NatÃ¡ (Cabecera)",
+        "district_id": "7"
+    },
+    {
+        "id": "47",
+        "name": "CapellanÃ­a",
+        "district_id": "7"
+    },
+    {
+        "id": "48",
+        "name": "El CaÃ±o",
+        "district_id": "7"
+    },
+    {
+        "id": "49",
+        "name": "GuzmÃ¡n",
+        "district_id": "7"
+    },
+    {
+        "id": "50",
+        "name": "Las Huacas",
+        "district_id": "7"
+    },
+    {
+        "id": "51",
+        "name": "Toza",
+        "district_id": "7"
+    },
+    {
+        "id": "52",
+        "name": "OlÃ¡ (Cabecera)",
+        "district_id": "8"
+    },
+    {
+        "id": "53",
+        "name": "El CopÃ©",
+        "district_id": "8"
+    },
+    {
+        "id": "54",
+        "name": "El Palmar",
+        "district_id": "8"
+    },
+    {
+        "id": "55",
+        "name": "El Picacho",
+        "district_id": "8"
+    },
+    {
+        "id": "56",
+        "name": "La Pava",
+        "district_id": "8"
+    },
+    {
+        "id": "57",
+        "name": "PenonomÃ© (Cabecera)",
+        "district_id": "9"
+    },
+    {
+        "id": "58",
+        "name": "CaÃ±averal",
+        "district_id": "9"
+    },
+    {
+        "id": "59",
+        "name": "CoclÃ©",
+        "district_id": "9"
+    },
+    {
+        "id": "60",
+        "name": "ChiguirÃ­ Arriba",
+        "district_id": "9"
+    },
+    {
+        "id": "61",
+        "name": "El Coco",
+        "district_id": "9"
+    },
+    {
+        "id": "62",
+        "name": "Pajona",
+        "district_id": "9"
+    },
+    {
+        "id": "63",
+        "name": "RÃ­o Grande",
+        "district_id": "9"
+    },
+    {
+        "id": "64",
+        "name": "RÃ­o Indio",
+        "district_id": "9"
+    },
+    {
+        "id": "65",
+        "name": "ToabrÃ©",
+        "district_id": "9"
+    },
+    {
+        "id": "66",
+        "name": "TulÃº",
+        "district_id": "9"
+    },
+    {
+        "id": "67",
+        "name": "Barrio Norte",
+        "district_id": "10"
+    },
+    {
+        "id": "68",
+        "name": "Barrio Sur",
+        "district_id": "10"
+    },
+    {
+        "id": "69",
+        "name": "Buena Vista",
+        "district_id": "10"
+    },
+    {
+        "id": "70",
+        "name": "CativÃ¡",
+        "district_id": "10"
+    },
+    {
+        "id": "71",
+        "name": "Ciricito",
+        "district_id": "10"
+    },
+    {
+        "id": "72",
+        "name": "CristÃ³bal",
+        "district_id": "10"
+    },
+    {
+        "id": "73",
+        "name": "Escobal",
+        "district_id": "10"
+    },
+    {
+        "id": "74",
+        "name": "LimÃ³n",
+        "district_id": "10"
+    },
+    {
+        "id": "75",
+        "name": "Nueva Providencia",
+        "district_id": "10"
+    },
+    {
+        "id": "76",
+        "name": "Puerto PilÃ³n",
+        "district_id": "10"
+    },
+    {
+        "id": "77",
+        "name": "Sabanitas",
+        "district_id": "10"
+    },
+    {
+        "id": "78",
+        "name": "Salamanca",
+        "district_id": "10"
+    },
+    {
+        "id": "79",
+        "name": "San Juan",
+        "district_id": "10"
+    },
+    {
+        "id": "80",
+        "name": "Santa Rosa",
+        "district_id": "10"
+    },
+    {
+        "id": "81",
+        "name": "Nuevo Chagres (Cabecera)",
+        "district_id": "11"
+    },
+    {
+        "id": "82",
+        "name": "Achiote",
+        "district_id": "11"
+    },
+    {
+        "id": "83",
+        "name": "El Guabo",
+        "district_id": "11"
+    },
+    {
+        "id": "84",
+        "name": "La Encantada",
+        "district_id": "11"
+    },
+    {
+        "id": "85",
+        "name": "Palmas Bellas.",
+        "district_id": "11"
+    },
+    {
+        "id": "86",
+        "name": "PiÃ±a",
+        "district_id": "11"
+    },
+    {
+        "id": "87",
+        "name": "Salud",
+        "district_id": "11"
+    },
+    {
+        "id": "88",
+        "name": "Miguel de la Borda (Cabecera)",
+        "district_id": "12"
+    },
+    {
+        "id": "89",
+        "name": "CoclÃ© del Norte",
+        "district_id": "12"
+    },
+    {
+        "id": "90",
+        "name": "El GuÃ¡simo",
+        "district_id": "12"
+    },
+    {
+        "id": "91",
+        "name": "Gobea",
+        "district_id": "12"
+    },
+    {
+        "id": "92",
+        "name": "RÃ­o Indio",
+        "district_id": "12"
+    },
+    {
+        "id": "93",
+        "name": "San JosÃ© del General",
+        "district_id": "12"
+    },
+    {
+        "id": "94",
+        "name": "Portobelo (Cabecera)",
+        "district_id": "13"
+    },
+    {
+        "id": "95",
+        "name": "Cacique",
+        "district_id": "13"
+    },
+    {
+        "id": "96",
+        "name": "Puerto Lindo o Garrote",
+        "district_id": "13"
+    },
+    {
+        "id": "97",
+        "name": "Isla Grande",
+        "district_id": "13"
+    },
+    {
+        "id": "98",
+        "name": "MarÃ­a Chiquita",
+        "district_id": "13"
+    },
+    {
+        "id": "99",
+        "name": "Palenque (Cabecera)",
+        "district_id": "14"
+    },
+    {
+        "id": "100",
+        "name": "Cuango",
+        "district_id": "14"
+    },
+    {
+        "id": "101",
+        "name": "Miramar",
+        "district_id": "14"
+    },
+    {
+        "id": "102",
+        "name": "Nombre de Dios",
+        "district_id": "14"
+    },
+    {
+        "id": "103",
+        "name": "Palmira",
+        "district_id": "14"
+    },
+    {
+        "id": "104",
+        "name": "Playa Chiquita",
+        "district_id": "14"
+    },
+    {
+        "id": "105",
+        "name": "Santa Isabel",
+        "district_id": "14"
+    },
+    {
+        "id": "106",
+        "name": "Viento FrÃ­o",
+        "district_id": "14"
+    },
+    {
+        "id": "107",
+        "name": "Alanje (Cabecera)",
+        "district_id": "15"
+    },
+    {
+        "id": "108",
+        "name": "DivalÃ¡",
+        "district_id": "15"
+    },
+    {
+        "id": "109",
+        "name": "El Tejar",
+        "district_id": "15"
+    },
+    {
+        "id": "110",
+        "name": "Guarumal",
+        "district_id": "15"
+    },
+    {
+        "id": "111",
+        "name": "Palo Grande",
+        "district_id": "15"
+    },
+    {
+        "id": "112",
+        "name": "QuerÃ©valo",
+        "district_id": "15"
+    },
+    {
+        "id": "113",
+        "name": "Santo TomÃ¡s",
+        "district_id": "15"
+    },
+    {
+        "id": "114",
+        "name": "Canta Gallo",
+        "district_id": "15"
+    },
+    {
+        "id": "115",
+        "name": "Nuevo MÃ©xico",
+        "district_id": "15"
+    },
+    {
+        "id": "116",
+        "name": "Puerto Armuelles (Cabecera",
+        "district_id": "16"
+    },
+    {
+        "id": "117",
+        "name": "Limones",
+        "district_id": "16"
+    },
+    {
+        "id": "118",
+        "name": "Progreso",
+        "district_id": "16"
+    },
+    {
+        "id": "119",
+        "name": "Baco",
+        "district_id": "16"
+    },
+    {
+        "id": "120",
+        "name": "Rodolfo Aguilar Delgado",
+        "district_id": "16"
+    },
+    {
+        "id": "121",
+        "name": "BoquerÃ³n (Cabecera)",
+        "district_id": "17"
+    },
+    {
+        "id": "122",
+        "name": "BÃ¡gala",
+        "district_id": "17"
+    },
+    {
+        "id": "123",
+        "name": "Cordillera",
+        "district_id": "17"
+    },
+    {
+        "id": "124",
+        "name": "Guabal",
+        "district_id": "17"
+    },
+    {
+        "id": "125",
+        "name": "Guayabal",
+        "district_id": "17"
+    },
+    {
+        "id": "126",
+        "name": "ParaÃ­so",
+        "district_id": "17"
+    },
+    {
+        "id": "127",
+        "name": "Pedregal",
+        "district_id": "17"
+    },
+    {
+        "id": "128",
+        "name": "Tijeras",
+        "district_id": "17"
+    },
+    {
+        "id": "129",
+        "name": "Bajo Boquete (Cabecera)",
+        "district_id": "18"
+    },
+    {
+        "id": "130",
+        "name": "Caldera",
+        "district_id": "18"
+    },
+    {
+        "id": "131",
+        "name": "Palmira",
+        "district_id": "18"
+    },
+    {
+        "id": "132",
+        "name": "Alto Boquete",
+        "district_id": "18"
+    },
+    {
+        "id": "133",
+        "name": "Jaramillo",
+        "district_id": "18"
+    },
+    {
+        "id": "134",
+        "name": "Los Naranjos",
+        "district_id": "18"
+    },
+    {
+        "id": "135",
+        "name": "La ConcepciÃ³n (Cabecera)",
+        "district_id": "19"
+    },
+    {
+        "id": "136",
+        "name": "AserrÃ­o de GarichÃ©",
+        "district_id": "19"
+    },
+    {
+        "id": "137",
+        "name": "Bugaba",
+        "district_id": "19"
+    },
+    {
+        "id": "138",
+        "name": "Cerro Punta",
+        "district_id": "19"
+    },
+    {
+        "id": "139",
+        "name": "GÃ³mez",
+        "district_id": "19"
+    },
+    {
+        "id": "140",
+        "name": "La Estrella",
+        "district_id": "19"
+    },
+    {
+        "id": "141",
+        "name": "San AndrÃ©s",
+        "district_id": "19"
+    },
+    {
+        "id": "142",
+        "name": "Santa Marta",
+        "district_id": "19"
+    },
+    {
+        "id": "143",
+        "name": "Santa Rosa",
+        "district_id": "19"
+    },
+    {
+        "id": "144",
+        "name": "Santo Domingo",
+        "district_id": "19"
+    },
+    {
+        "id": "145",
+        "name": "SortovÃ¡",
+        "district_id": "19"
+    },
+    {
+        "id": "146",
+        "name": "VolcÃ¡n",
+        "district_id": "19"
+    },
+    {
+        "id": "147",
+        "name": "El Bongo",
+        "district_id": "19"
+    },
+    {
+        "id": "148",
+        "name": "David (Cabecera",
+        "district_id": "20"
+    },
+    {
+        "id": "149",
+        "name": "Bijagual",
+        "district_id": "20"
+    },
+    {
+        "id": "150",
+        "name": "Cochea",
+        "district_id": "20"
+    },
+    {
+        "id": "151",
+        "name": "ChiriquÃ­",
+        "district_id": "20"
+    },
+    {
+        "id": "152",
+        "name": "GuacÃ¡",
+        "district_id": "20"
+    },
+    {
+        "id": "153",
+        "name": "Las Lomas",
+        "district_id": "20"
+    },
+    {
+        "id": "154",
+        "name": "Pedrega",
+        "district_id": "20"
+    },
+    {
+        "id": "155",
+        "name": "San Carlos",
+        "district_id": "20"
+    },
+    {
+        "id": "156",
+        "name": "San Pablo Nuevo",
+        "district_id": "20"
+    },
+    {
+        "id": "157",
+        "name": "San Pablo Viejo",
+        "district_id": "20"
+    },
+    {
+        "id": "158",
+        "name": "Dolega (Cabecera)",
+        "district_id": "21"
+    },
+    {
+        "id": "159",
+        "name": "Dos RÃ­os",
+        "district_id": "21"
+    },
+    {
+        "id": "160",
+        "name": "Los Anastacios",
+        "district_id": "21"
+    },
+    {
+        "id": "161",
+        "name": "Potrerillos",
+        "district_id": "21"
+    },
+    {
+        "id": "162",
+        "name": "Potrerillos Abajo",
+        "district_id": "21"
+    },
+    {
+        "id": "163",
+        "name": "Rovira",
+        "district_id": "21"
+    },
+    {
+        "id": "164",
+        "name": "Tinajas",
+        "district_id": "21"
+    },
+    {
+        "id": "165",
+        "name": "Los Algarrobos",
+        "district_id": "21"
+    },
+    {
+        "id": "166",
+        "name": "Gualaca (Cabecera)",
+        "district_id": "22"
+    },
+    {
+        "id": "167",
+        "name": "Hornito",
+        "district_id": "22"
+    },
+    {
+        "id": "168",
+        "name": "Los Ãngeles",
+        "district_id": "22"
+    },
+    {
+        "id": "169",
+        "name": "Paja de Sombrero",
+        "district_id": "22"
+    },
+    {
+        "id": "170",
+        "name": "RincÃ³n",
+        "district_id": "22"
+    },
+    {
+        "id": "171",
+        "name": "Remedios (Cabecera)",
+        "district_id": "23"
+    },
+    {
+        "id": "172",
+        "name": "El Nancito",
+        "district_id": "23"
+    },
+    {
+        "id": "173",
+        "name": "El Porvenir",
+        "district_id": "23"
+    },
+    {
+        "id": "174",
+        "name": "El Puerto",
+        "district_id": "23"
+    },
+    {
+        "id": "175",
+        "name": "Santa LucÃ­a",
+        "district_id": "23"
+    },
+    {
+        "id": "176",
+        "name": "RÃ­o Sereno (Cabecera",
+        "district_id": "24"
+    },
+    {
+        "id": "177",
+        "name": "BreÃ±Ã³n",
+        "district_id": "24"
+    },
+    {
+        "id": "178",
+        "name": "CaÃ±as Gordas",
+        "district_id": "24"
+    },
+    {
+        "id": "179",
+        "name": "Monte Lirio",
+        "district_id": "24"
+    },
+    {
+        "id": "180",
+        "name": "Plaza CaisÃ¡n",
+        "district_id": "24"
+    },
+    {
+        "id": "181",
+        "name": "Santa Cruz",
+        "district_id": "24"
+    },
+    {
+        "id": "182",
+        "name": "Dominical",
+        "district_id": "24"
+    },
+    {
+        "id": "183",
+        "name": "Santa Clara",
+        "district_id": "24"
+    },
+    {
+        "id": "184",
+        "name": "Las Lajas (Cabecera)",
+        "district_id": "25"
+    },
+    {
+        "id": "185",
+        "name": "Juay",
+        "district_id": "25"
+    },
+    {
+        "id": "186",
+        "name": "Lajas Adentro",
+        "district_id": "25"
+    },
+    {
+        "id": "187",
+        "name": "San FÃ©lix",
+        "district_id": "25"
+    },
+    {
+        "id": "188",
+        "name": "Santa Cruz",
+        "district_id": "25"
+    },
+    {
+        "id": "189",
+        "name": "Horconcitos (Cabecera)",
+        "district_id": "26"
+    },
+    {
+        "id": "190",
+        "name": "Boca Chica",
+        "district_id": "26"
+    },
+    {
+        "id": "191",
+        "name": "Boca del Monte",
+        "district_id": "26"
+    },
+    {
+        "id": "192",
+        "name": "San Juan",
+        "district_id": "26"
+    },
+    {
+        "id": "193",
+        "name": "San Lorenzo",
+        "district_id": "26"
+    },
+    {
+        "id": "194",
+        "name": "TolÃ© (Cabecera)",
+        "district_id": "27"
+    },
+    {
+        "id": "195",
+        "name": "Bella Vista",
+        "district_id": "27"
+    },
+    {
+        "id": "196",
+        "name": "Cerro Viejo",
+        "district_id": "27"
+    },
+    {
+        "id": "197",
+        "name": "El Cristo",
+        "district_id": "27"
+    },
+    {
+        "id": "198",
+        "name": "Justo Fidel",
+        "district_id": "27"
+    },
+    {
+        "id": "199",
+        "name": "Lajas de TolÃ©",
+        "district_id": "27"
+    },
+    {
+        "id": "200",
+        "name": "Potrero de CaÃ±a",
+        "district_id": "27"
+    },
+    {
+        "id": "201",
+        "name": "Quebrada de Piedra",
+        "district_id": "27"
+    },
+    {
+        "id": "202",
+        "name": "Veladero",
+        "district_id": "27"
+    },
+    {
+        "id": "203",
+        "name": "La Palma (Cabecera)",
+        "district_id": "28"
+    },
+    {
+        "id": "204",
+        "name": "Camoganti",
+        "district_id": "28"
+    },
+    {
+        "id": "205",
+        "name": "Chepigana",
+        "district_id": "28"
+    },
+    {
+        "id": "206",
+        "name": "GarachinÃ©",
+        "district_id": "28"
+    },
+    {
+        "id": "207",
+        "name": "JaquÃ©",
+        "district_id": "28"
+    },
+    {
+        "id": "208",
+        "name": "Puerto PiÃ±a",
+        "district_id": "28"
+    },
+    {
+        "id": "209",
+        "name": "RÃ­o Congo",
+        "district_id": "28"
+    },
+    {
+        "id": "210",
+        "name": "RÃ­o Iglesias",
+        "district_id": "28"
+    },
+    {
+        "id": "211",
+        "name": "SambÃº",
+        "district_id": "28"
+    },
+    {
+        "id": "212",
+        "name": "SetegantÃ­",
+        "district_id": "28"
+    },
+    {
+        "id": "213",
+        "name": "TaimatÃ­",
+        "district_id": "28"
+    },
+    {
+        "id": "214",
+        "name": "TucutÃ­",
+        "district_id": "28"
+    },
+    {
+        "id": "215",
+        "name": " Agua FrÃ­a",
+        "district_id": "28"
+    },
+    {
+        "id": "216",
+        "name": "CucunatÃ­",
+        "district_id": "28"
+    },
+    {
+        "id": "217",
+        "name": "RÃ­o Congo Arriba",
+        "district_id": "28"
+    },
+    {
+        "id": "218",
+        "name": "Santa Fe",
+        "district_id": "28"
+    },
+    {
+        "id": "219",
+        "name": "Pinogana",
+        "district_id": "28"
+    },
+    {
+        "id": "220",
+        "name": "Boca de CupÃ©",
+        "district_id": "29"
+    },
+    {
+        "id": "221",
+        "name": "Paya",
+        "district_id": "29"
+    },
+    {
+        "id": "222",
+        "name": "Pinogana",
+        "district_id": "29"
+    },
+    {
+        "id": "223",
+        "name": "PÃºcuro",
+        "district_id": "29"
+    },
+    {
+        "id": "224",
+        "name": "Yape",
+        "district_id": "29"
+    },
+    {
+        "id": "225",
+        "name": "Yaviza",
+        "district_id": "29"
+    },
+    {
+        "id": "226",
+        "name": "MetetÃ­",
+        "district_id": "29"
+    },
+    {
+        "id": "227",
+        "name": "Comarca Kuna de WargandÃ­",
+        "district_id": "29"
+    },
+    {
+        "id": "228",
+        "name": "ChitrÃ© (Cabecera)",
+        "district_id": "30"
+    },
+    {
+        "id": "229",
+        "name": "La Arena",
+        "district_id": "30"
+    },
+    {
+        "id": "230",
+        "name": "Monagrillo",
+        "district_id": "30"
+    },
+    {
+        "id": "231",
+        "name": "Llano Bonito",
+        "district_id": "30"
+    },
+    {
+        "id": "232",
+        "name": "San Juan Bautista",
+        "district_id": "30"
+    },
+    {
+        "id": "233",
+        "name": "Las Minas (Cabecera)",
+        "district_id": "31"
+    },
+    {
+        "id": "234",
+        "name": "Chepo",
+        "district_id": "31"
+    },
+    {
+        "id": "235",
+        "name": "Chumical",
+        "district_id": "31"
+    },
+    {
+        "id": "236",
+        "name": "El Toro",
+        "district_id": "31"
+    },
+    {
+        "id": "237",
+        "name": "Leones",
+        "district_id": "31"
+    },
+    {
+        "id": "238",
+        "name": "Quebrada del Rosario",
+        "district_id": "31"
+    },
+    {
+        "id": "239",
+        "name": "Quebrada El CipriÃ¡n",
+        "district_id": "31"
+    },
+    {
+        "id": "240",
+        "name": "Los Pozos (Cabecera)",
+        "district_id": "32"
+    },
+    {
+        "id": "241",
+        "name": "CapurÃ­",
+        "district_id": "32"
+    },
+    {
+        "id": "242",
+        "name": "El Calabacito",
+        "district_id": "32"
+    },
+    {
+        "id": "243",
+        "name": "El Cedro",
+        "district_id": "32"
+    },
+    {
+        "id": "244",
+        "name": "La Arena",
+        "district_id": "32"
+    },
+    {
+        "id": "245",
+        "name": "La Pitaloza",
+        "district_id": "32"
+    },
+    {
+        "id": "246",
+        "name": "Los Cerritos",
+        "district_id": "32"
+    },
+    {
+        "id": "247",
+        "name": "Los Cerros de Paja",
+        "district_id": "32"
+    },
+    {
+        "id": "248",
+        "name": "Las Llanas",
+        "district_id": "32"
+    },
+    {
+        "id": "249",
+        "name": "OcÃº (Cabecera)",
+        "district_id": "33"
+    },
+    {
+        "id": "250",
+        "name": "Cerro Largo",
+        "district_id": "33"
+    },
+    {
+        "id": "251",
+        "name": "Los Llanos",
+        "district_id": "33"
+    },
+    {
+        "id": "252",
+        "name": "Llano Grande",
+        "district_id": "33"
+    },
+    {
+        "id": "253",
+        "name": "PeÃ±as Chatas",
+        "district_id": "33"
+    },
+    {
+        "id": "254",
+        "name": "El Tijera",
+        "district_id": "33"
+    },
+    {
+        "id": "255",
+        "name": "Menchaca",
+        "district_id": "33"
+    },
+    {
+        "id": "256",
+        "name": "Entradero del Castillo",
+        "district_id": "33"
+    },
+    {
+        "id": "257",
+        "name": "Parita (Cabecera)",
+        "district_id": "34"
+    },
+    {
+        "id": "258",
+        "name": "Cabuya",
+        "district_id": "34"
+    },
+    {
+        "id": "259",
+        "name": "Los Castillos",
+        "district_id": "34"
+    },
+    {
+        "id": "260",
+        "name": "Llano de la Cruz.",
+        "district_id": "34"
+    },
+    {
+        "id": "261",
+        "name": "ParÃ­s",
+        "district_id": "34"
+    },
+    {
+        "id": "262",
+        "name": "Portobelillo",
+        "district_id": "34"
+    },
+    {
+        "id": "263",
+        "name": "Potuga",
+        "district_id": "34"
+    },
+    {
+        "id": "264",
+        "name": "PesÃ© (Cabecera)",
+        "district_id": "35"
+    },
+    {
+        "id": "265",
+        "name": "Las Cabras",
+        "district_id": "35"
+    },
+    {
+        "id": "266",
+        "name": "El PÃ¡jaro",
+        "district_id": "35"
+    },
+    {
+        "id": "267",
+        "name": "El Barrero",
+        "district_id": "35"
+    },
+    {
+        "id": "268",
+        "name": "El Pedregoso",
+        "district_id": "35"
+    },
+    {
+        "id": "269",
+        "name": "El Ciruelo",
+        "district_id": "35"
+    },
+    {
+        "id": "270",
+        "name": "Sabanagrande",
+        "district_id": "35"
+    },
+    {
+        "id": "271",
+        "name": "RincÃ³n Hondo",
+        "district_id": "35"
+    },
+    {
+        "id": "272",
+        "name": "Santa MarÃ­a (Cabecera)",
+        "district_id": "36"
+    },
+    {
+        "id": "273",
+        "name": "Chupampa",
+        "district_id": "36"
+    },
+    {
+        "id": "274",
+        "name": "El RincÃ³n",
+        "district_id": "36"
+    },
+    {
+        "id": "275",
+        "name": "El LimÃ³n",
+        "district_id": "36"
+    },
+    {
+        "id": "276",
+        "name": "Los Canelos",
+        "district_id": "36"
+    },
+    {
+        "id": "277",
+        "name": "GuararÃ© (Cabecera)",
+        "district_id": "37"
+    },
+    {
+        "id": "278",
+        "name": "El Espinal",
+        "district_id": "37"
+    },
+    {
+        "id": "279",
+        "name": "El Macano",
+        "district_id": "37"
+    },
+    {
+        "id": "280",
+        "name": "GuararÃ© Arriba",
+        "district_id": "37"
+    },
+    {
+        "id": "281",
+        "name": "La Enea",
+        "district_id": "37"
+    },
+    {
+        "id": "282",
+        "name": "La Pasera",
+        "district_id": "37"
+    },
+    {
+        "id": "283",
+        "name": "Las Trancas",
+        "district_id": "37"
+    },
+    {
+        "id": "284",
+        "name": "Llano Abajo",
+        "district_id": "37"
+    },
+    {
+        "id": "285",
+        "name": "El Hato",
+        "district_id": "37"
+    },
+    {
+        "id": "286",
+        "name": "Perales",
+        "district_id": "37"
+    },
+    {
+        "id": "287",
+        "name": "Las Tablas (Cabecera)",
+        "district_id": "38"
+    },
+    {
+        "id": "288",
+        "name": "Bajo Corral",
+        "district_id": "38"
+    },
+    {
+        "id": "289",
+        "name": "Bayano",
+        "district_id": "38"
+    },
+    {
+        "id": "290",
+        "name": "El Carate",
+        "district_id": "38"
+    },
+    {
+        "id": "291",
+        "name": "El Cocal",
+        "district_id": "38"
+    },
+    {
+        "id": "292",
+        "name": "El Manantial",
+        "district_id": "38"
+    },
+    {
+        "id": "293",
+        "name": "El MuÃ±oz",
+        "district_id": "38"
+    },
+    {
+        "id": "294",
+        "name": "El Pedregoso",
+        "district_id": "38"
+    },
+    {
+        "id": "295",
+        "name": "La Laja",
+        "district_id": "38"
+    },
+    {
+        "id": "296",
+        "name": "La Miel",
+        "district_id": "38"
+    },
+    {
+        "id": "297",
+        "name": "La Palma",
+        "district_id": "38"
+    },
+    {
+        "id": "298",
+        "name": "La Tiza",
+        "district_id": "38"
+    },
+    {
+        "id": "299",
+        "name": "Las Palmitas",
+        "district_id": "38"
+    },
+    {
+        "id": "300",
+        "name": "Las Tablas Abajo",
+        "district_id": "38"
+    },
+    {
+        "id": "301",
+        "name": "Nuario",
+        "district_id": "38"
+    },
+    {
+        "id": "302",
+        "name": "Palmira",
+        "district_id": "38"
+    },
+    {
+        "id": "303",
+        "name": "PeÃ±a",
+        "district_id": "38"
+    },
+    {
+        "id": "304",
+        "name": "RÃ­o Hondo",
+        "district_id": "38"
+    },
+    {
+        "id": "305",
+        "name": "San JosÃ©",
+        "district_id": "38"
+    },
+    {
+        "id": "306",
+        "name": "San Miguel",
+        "district_id": "38"
+    },
+    {
+        "id": "307",
+        "name": "Santo Domingo",
+        "district_id": "38"
+    },
+    {
+        "id": "308",
+        "name": "Sesteadero",
+        "district_id": "38"
+    },
+    {
+        "id": "309",
+        "name": "Valle Rico",
+        "district_id": "38"
+    },
+    {
+        "id": "310",
+        "name": "Vallerriquito",
+        "district_id": "38"
+    },
+    {
+        "id": "311",
+        "name": "La Villa de Los Santos (Cabecera)",
+        "district_id": "39"
+    },
+    {
+        "id": "312",
+        "name": "El GuÃ¡simo",
+        "district_id": "39"
+    },
+    {
+        "id": "313",
+        "name": "La Colorada",
+        "district_id": "39"
+    },
+    {
+        "id": "314",
+        "name": "La Espigadilla",
+        "district_id": "39"
+    },
+    {
+        "id": "315",
+        "name": "Las Cruces",
+        "district_id": "39"
+    },
+    {
+        "id": "316",
+        "name": "Las Guabas",
+        "district_id": "39"
+    },
+    {
+        "id": "317",
+        "name": "Los Ãngeles",
+        "district_id": "39"
+    },
+    {
+        "id": "318",
+        "name": "Los Olivos",
+        "district_id": "39"
+    },
+    {
+        "id": "319",
+        "name": "Llano Largo",
+        "district_id": "39"
+    },
+    {
+        "id": "320",
+        "name": "Sabanagrande",
+        "district_id": "39"
+    },
+    {
+        "id": "321",
+        "name": "Santa Ana",
+        "district_id": "39"
+    },
+    {
+        "id": "322",
+        "name": "Tres Quebradas",
+        "district_id": "39"
+    },
+    {
+        "id": "323",
+        "name": "Agua Buena",
+        "district_id": "39"
+    },
+    {
+        "id": "324",
+        "name": "Villa Lourdes",
+        "district_id": "39"
+    },
+    {
+        "id": "325",
+        "name": "Macaracas (Cabecera)",
+        "district_id": "40"
+    },
+    {
+        "id": "326",
+        "name": "BahÃ­a Honda",
+        "district_id": "40"
+    },
+    {
+        "id": "327",
+        "name": "Bajos de GÃ¼era",
+        "district_id": "40"
+    },
+    {
+        "id": "328",
+        "name": "Corozal",
+        "district_id": "40"
+    },
+    {
+        "id": "329",
+        "name": "ChupÃ¡.",
+        "district_id": "40"
+    },
+    {
+        "id": "330",
+        "name": "El Cedro",
+        "district_id": "40"
+    },
+    {
+        "id": "331",
+        "name": "Espino Amarillo",
+        "district_id": "40"
+    },
+    {
+        "id": "332",
+        "name": "La Mesa",
+        "district_id": "40"
+    },
+    {
+        "id": "333",
+        "name": "Las Palmas",
+        "district_id": "40"
+    },
+    {
+        "id": "334",
+        "name": "Llano de Piedra",
+        "district_id": "40"
+    },
+    {
+        "id": "335",
+        "name": "MogollÃ³n",
+        "district_id": "40"
+    },
+    {
+        "id": "336",
+        "name": "PedasÃ­ (Cabecera)",
+        "district_id": "41"
+    },
+    {
+        "id": "337",
+        "name": "Los Asientos",
+        "district_id": "41"
+    },
+    {
+        "id": "338",
+        "name": "MariabÃ©",
+        "district_id": "41"
+    },
+    {
+        "id": "339",
+        "name": "Purio",
+        "district_id": "41"
+    },
+    {
+        "id": "340",
+        "name": "Oria Arriba",
+        "district_id": "41"
+    },
+    {
+        "id": "341",
+        "name": "PocrÃ­ (Cabecera)",
+        "district_id": "42"
+    },
+    {
+        "id": "342",
+        "name": "El CaÃ±afÃ­stulo",
+        "district_id": "42"
+    },
+    {
+        "id": "343",
+        "name": "Lajamina",
+        "district_id": "42"
+    },
+    {
+        "id": "344",
+        "name": "ParaÃ­so",
+        "district_id": "42"
+    },
+    {
+        "id": "345",
+        "name": "Paritilla",
+        "district_id": "42"
+    },
+    {
+        "id": "346",
+        "name": "TonosÃ­ (Cabecera)",
+        "district_id": "43"
+    },
+    {
+        "id": "347",
+        "name": "Altos de GÃ¼era",
+        "district_id": "43"
+    },
+    {
+        "id": "348",
+        "name": "CaÃ±as",
+        "district_id": "43"
+    },
+    {
+        "id": "349",
+        "name": "El Bebedero",
+        "district_id": "43"
+    },
+    {
+        "id": "350",
+        "name": "El Cacao",
+        "district_id": "43"
+    },
+    {
+        "id": "351",
+        "name": "El Cortezo",
+        "district_id": "43"
+    },
+    {
+        "id": "352",
+        "name": "Flores",
+        "district_id": "43"
+    },
+    {
+        "id": "353",
+        "name": "GuÃ¡nico",
+        "district_id": "43"
+    },
+    {
+        "id": "354",
+        "name": "La Tronosa",
+        "district_id": "43"
+    },
+    {
+        "id": "355",
+        "name": "Cambutal",
+        "district_id": "43"
+    },
+    {
+        "id": "356",
+        "name": "Isla de CaÃ±as",
+        "district_id": "43"
+    },
+    {
+        "id": "357",
+        "name": "San Miguel (Cabecera)",
+        "district_id": "44"
+    },
+    {
+        "id": "358",
+        "name": "La Ensenada",
+        "district_id": "44"
+    },
+    {
+        "id": "359",
+        "name": "La Esmeralda",
+        "district_id": "44"
+    },
+    {
+        "id": "360",
+        "name": "La Guinea",
+        "district_id": "44"
+    },
+    {
+        "id": "361",
+        "name": "Pedro GonzÃ¡lez",
+        "district_id": "44"
+    },
+    {
+        "id": "362",
+        "name": "Saboga",
+        "district_id": "44"
+    },
+    {
+        "id": "363",
+        "name": "Chepo (Cabecera)",
+        "district_id": "45"
+    },
+    {
+        "id": "364",
+        "name": "CaÃ±ita",
+        "district_id": "45"
+    },
+    {
+        "id": "365",
+        "name": "Chepillo",
+        "district_id": "45"
+    },
+    {
+        "id": "366",
+        "name": "El Llano",
+        "district_id": "45"
+    },
+    {
+        "id": "367",
+        "name": "Las Margaritas",
+        "district_id": "45"
+    },
+    {
+        "id": "368",
+        "name": "Santa Cruz de Chinina",
+        "district_id": "45"
+    },
+    {
+        "id": "369",
+        "name": "Comarca Kuna de MadungandÃ­",
+        "district_id": "45"
+    },
+    {
+        "id": "370",
+        "name": "TortÃ­",
+        "district_id": "45"
+    },
+    {
+        "id": "371",
+        "name": "ChimÃ¡n (Cabecera)",
+        "district_id": "46"
+    },
+    {
+        "id": "372",
+        "name": "Brujas",
+        "district_id": "46"
+    },
+    {
+        "id": "373",
+        "name": "Gonzalo VÃ¡squez",
+        "district_id": "46"
+    },
+    {
+        "id": "374",
+        "name": "PÃ¡siga",
+        "district_id": "46"
+    },
+    {
+        "id": "375",
+        "name": "UniÃ³n SanteÃ±a",
+        "district_id": "46"
+    },
+    {
+        "id": "376",
+        "name": "San Felipe",
+        "district_id": "47"
+    },
+    {
+        "id": "377",
+        "name": "El Chorrillo",
+        "district_id": "47"
+    },
+    {
+        "id": "378",
+        "name": "Santa Ana",
+        "district_id": "47"
+    },
+    {
+        "id": "379",
+        "name": "La ExposiciÃ³n o Calidonia",
+        "district_id": "47"
+    },
+    {
+        "id": "380",
+        "name": "CurundÃº",
+        "district_id": "47"
+    },
+    {
+        "id": "381",
+        "name": "Betania",
+        "district_id": "47"
+    },
+    {
+        "id": "382",
+        "name": "Bella Vista",
+        "district_id": "47"
+    },
+    {
+        "id": "383",
+        "name": "Pueblo Nuevo",
+        "district_id": "47"
+    },
+    {
+        "id": "384",
+        "name": "San Francisco",
+        "district_id": "47"
+    },
+    {
+        "id": "385",
+        "name": "Parque Lefevre.",
+        "district_id": "47"
+    },
+    {
+        "id": "386",
+        "name": "RÃ­o Abajo",
+        "district_id": "47"
+    },
+    {
+        "id": "387",
+        "name": "Juan DÃ­az",
+        "district_id": "47"
+    },
+    {
+        "id": "388",
+        "name": "Pedregal",
+        "district_id": "47"
+    },
+    {
+        "id": "389",
+        "name": "AncÃ³n",
+        "district_id": "47"
+    },
+    {
+        "id": "390",
+        "name": "Chilibre",
+        "district_id": "47"
+    },
+    {
+        "id": "391",
+        "name": "Las Cumbres",
+        "district_id": "47"
+    },
+    {
+        "id": "392",
+        "name": "Pacora",
+        "district_id": "47"
+    },
+    {
+        "id": "393",
+        "name": "San MartÃ­n",
+        "district_id": "47"
+    },
+    {
+        "id": "394",
+        "name": "Tocumen",
+        "district_id": "47"
+    },
+    {
+        "id": "395",
+        "name": "Las MaÃ±anitas",
+        "district_id": "47"
+    },
+    {
+        "id": "396",
+        "name": "24 de Diciembre",
+        "district_id": "47"
+    },
+    {
+        "id": "397",
+        "name": "Alcalde DÃ­az",
+        "district_id": "47"
+    },
+    {
+        "id": "398",
+        "name": "Ernesto CÃ³rdoba Campos",
+        "district_id": "47"
+    },
+    {
+        "id": "399",
+        "name": "Amelia Denis de Icaza.",
+        "district_id": "48"
+    },
+    {
+        "id": "400",
+        "name": "Belisario Porras",
+        "district_id": "48"
+    },
+    {
+        "id": "401",
+        "name": "JosÃ© Domingo Espinar",
+        "district_id": "48"
+    },
+    {
+        "id": "402",
+        "name": "Mateo Iturralde",
+        "district_id": "48"
+    },
+    {
+        "id": "403",
+        "name": "Victoriano Lorenzo",
+        "district_id": "48"
+    },
+    {
+        "id": "404",
+        "name": "Arnulfo Arias",
+        "district_id": "48"
+    },
+    {
+        "id": "405",
+        "name": "Belisario FrÃ­as",
+        "district_id": "48"
+    },
+    {
+        "id": "406",
+        "name": "Omar Torrijos",
+        "district_id": "48"
+    },
+    {
+        "id": "407",
+        "name": "Rufina Alfaro",
+        "district_id": "48"
+    },
+    {
+        "id": "408",
+        "name": "Taboga (Cabecera)",
+        "district_id": "49"
+    },
+    {
+        "id": "409",
+        "name": "Otoque Occidente",
+        "district_id": "49"
+    },
+    {
+        "id": "410",
+        "name": "Otoque Oriente",
+        "district_id": "49"
+    },
+    {
+        "id": "411",
+        "name": "Atalaya (Cabecera)",
+        "district_id": "50"
+    },
+    {
+        "id": "412",
+        "name": "El Barrito",
+        "district_id": "50"
+    },
+    {
+        "id": "413",
+        "name": "La MontaÃ±uela",
+        "district_id": "50"
+    },
+    {
+        "id": "414",
+        "name": "La Carrillo",
+        "district_id": "50"
+    },
+    {
+        "id": "415",
+        "name": "San Antonio",
+        "district_id": "50"
+    },
+    {
+        "id": "416",
+        "name": "Calobre (Cabecera)",
+        "district_id": "51"
+    },
+    {
+        "id": "417",
+        "name": "Barnizal",
+        "district_id": "51"
+    },
+    {
+        "id": "418",
+        "name": "Chitra",
+        "district_id": "51"
+    },
+    {
+        "id": "419",
+        "name": "El Cocla",
+        "district_id": "51"
+    },
+    {
+        "id": "420",
+        "name": "El Potrero",
+        "district_id": "51"
+    },
+    {
+        "id": "421",
+        "name": "La Laguna",
+        "district_id": "51"
+    },
+    {
+        "id": "422",
+        "name": "La Raya de Calobre",
+        "district_id": "51"
+    },
+    {
+        "id": "423",
+        "name": "La Tetilla",
+        "district_id": "51"
+    },
+    {
+        "id": "424",
+        "name": "La Yeguada",
+        "district_id": "51"
+    },
+    {
+        "id": "425",
+        "name": "Las GuÃ­as",
+        "district_id": "51"
+    },
+    {
+        "id": "426",
+        "name": "MonjarÃ¡s",
+        "district_id": "51"
+    },
+    {
+        "id": "427",
+        "name": "San JosÃ©",
+        "district_id": "51"
+    },
+    {
+        "id": "428",
+        "name": "CaÃ±azas (Cabecera)",
+        "district_id": "52"
+    },
+    {
+        "id": "429",
+        "name": "Cerro Plata",
+        "district_id": "52"
+    },
+    {
+        "id": "430",
+        "name": "El Picador",
+        "district_id": "52"
+    },
+    {
+        "id": "431",
+        "name": "Los Valles",
+        "district_id": "52"
+    },
+    {
+        "id": "432",
+        "name": "San JosÃ©",
+        "district_id": "52"
+    },
+    {
+        "id": "433",
+        "name": "San Marcelo",
+        "district_id": "52"
+    },
+    {
+        "id": "434",
+        "name": "El Aromillo",
+        "district_id": "52"
+    },
+    {
+        "id": "435",
+        "name": "Las Cruces",
+        "district_id": "52"
+    },
+    {
+        "id": "436",
+        "name": "La Mesa (Cabecera)",
+        "district_id": "53"
+    },
+    {
+        "id": "437",
+        "name": "Bisvalles",
+        "district_id": "53"
+    },
+    {
+        "id": "438",
+        "name": "BorÃ³",
+        "district_id": "53"
+    },
+    {
+        "id": "439",
+        "name": "Llano Grande",
+        "district_id": "53"
+    },
+    {
+        "id": "440",
+        "name": "San Bartolo",
+        "district_id": "53"
+    },
+    {
+        "id": "441",
+        "name": "Los Milagros",
+        "district_id": "53"
+    },
+    {
+        "id": "442",
+        "name": "El Higo",
+        "district_id": "53"
+    },
+    {
+        "id": "443",
+        "name": "Las Palmas (Cabecera)",
+        "district_id": "54"
+    },
+    {
+        "id": "444",
+        "name": "Cerro de Casa",
+        "district_id": "54"
+    },
+    {
+        "id": "445",
+        "name": "Corozal",
+        "district_id": "54"
+    },
+    {
+        "id": "446",
+        "name": "El MarÃ­a",
+        "district_id": "54"
+    },
+    {
+        "id": "447",
+        "name": "El Prado",
+        "district_id": "54"
+    },
+    {
+        "id": "448",
+        "name": "El RincÃ³n",
+        "district_id": "54"
+    },
+    {
+        "id": "449",
+        "name": "LolÃ¡",
+        "district_id": "54"
+    },
+    {
+        "id": "450",
+        "name": "Pixvae",
+        "district_id": "54"
+    },
+    {
+        "id": "451",
+        "name": "Puerto Vidal",
+        "district_id": "54"
+    },
+    {
+        "id": "452",
+        "name": "San MartÃ­n de Porres",
+        "district_id": "54"
+    },
+    {
+        "id": "453",
+        "name": "ViguÃ­",
+        "district_id": "54"
+    },
+    {
+        "id": "454",
+        "name": "Zapotillo",
+        "district_id": "54"
+    },
+    {
+        "id": "455",
+        "name": "Manuel E. Amador Terrero",
+        "district_id": "54"
+    },
+    {
+        "id": "456",
+        "name": "Montijo (Cabecera)",
+        "district_id": "55"
+    },
+    {
+        "id": "457",
+        "name": "Gobernadora",
+        "district_id": "55"
+    },
+    {
+        "id": "458",
+        "name": "La Garceana",
+        "district_id": "55"
+    },
+    {
+        "id": "459",
+        "name": "Leones",
+        "district_id": "55"
+    },
+    {
+        "id": "460",
+        "name": "PilÃ³n",
+        "district_id": "55"
+    },
+    {
+        "id": "461",
+        "name": "CÃ©baco",
+        "district_id": "55"
+    },
+    {
+        "id": "462",
+        "name": "Costa Hermosa",
+        "district_id": "55"
+    },
+    {
+        "id": "463",
+        "name": "UniÃ³n del Norte",
+        "district_id": "55"
+    },
+    {
+        "id": "464",
+        "name": "RÃ­o de JesÃºs (Cabecera)",
+        "district_id": "56"
+    },
+    {
+        "id": "465",
+        "name": "Las Huacas",
+        "district_id": "56"
+    },
+    {
+        "id": "466",
+        "name": "Los Castillos",
+        "district_id": "56"
+    },
+    {
+        "id": "467",
+        "name": "Utira",
+        "district_id": "56"
+    },
+    {
+        "id": "468",
+        "name": "Catorce de Noviembre",
+        "district_id": "56"
+    },
+    {
+        "id": "469",
+        "name": "San Francisco (Cabecera)",
+        "district_id": "57"
+    },
+    {
+        "id": "470",
+        "name": "Corral Falso",
+        "district_id": "57"
+    },
+    {
+        "id": "471",
+        "name": "Los Hatillos",
+        "district_id": "57"
+    },
+    {
+        "id": "472",
+        "name": "Remance",
+        "district_id": "57"
+    },
+    {
+        "id": "473",
+        "name": "San Juan",
+        "district_id": "57"
+    },
+    {
+        "id": "474",
+        "name": "San JosÃ©",
+        "district_id": "57"
+    },
+    {
+        "id": "475",
+        "name": "Santa Fe (Cabecera)",
+        "district_id": "58"
+    },
+    {
+        "id": "476",
+        "name": "CalovÃ©bora",
+        "district_id": "58"
+    },
+    {
+        "id": "477",
+        "name": "El Alto",
+        "district_id": "58"
+    },
+    {
+        "id": "478",
+        "name": "El Cuay",
+        "district_id": "58"
+    },
+    {
+        "id": "479",
+        "name": "El Pantano",
+        "district_id": "58"
+    },
+    {
+        "id": "480",
+        "name": "GatÃº o Gatucito",
+        "district_id": "58"
+    },
+    {
+        "id": "481",
+        "name": "RÃ­o Luis",
+        "district_id": "58"
+    },
+    {
+        "id": "482",
+        "name": "RubÃ©n CantÃº",
+        "district_id": "58"
+    },
+    {
+        "id": "483",
+        "name": "Santiago (Cabecera)",
+        "district_id": "59"
+    },
+    {
+        "id": "484",
+        "name": "La Colorada",
+        "district_id": "59"
+    },
+    {
+        "id": "485",
+        "name": "La PeÃ±a",
+        "district_id": "59"
+    },
+    {
+        "id": "486",
+        "name": "La Raya de Santa MarÃ­a",
+        "district_id": "59"
+    },
+    {
+        "id": "487",
+        "name": "Ponuga",
+        "district_id": "59"
+    },
+    {
+        "id": "488",
+        "name": "San Pedro del Espino",
+        "district_id": "59"
+    },
+    {
+        "id": "489",
+        "name": "Canto del Llano",
+        "district_id": "59"
+    },
+    {
+        "id": "490",
+        "name": "Los Algarrobos",
+        "district_id": "59"
+    },
+    {
+        "id": "491",
+        "name": "Carlos Santana Ãvila",
+        "district_id": "59"
+    },
+    {
+        "id": "492",
+        "name": "Edwin FÃ¡brega",
+        "district_id": "59"
+    },
+    {
+        "id": "493",
+        "name": "San MartÃ­n de Porres",
+        "district_id": "59"
+    },
+    {
+        "id": "494",
+        "name": "UrracÃ¡",
+        "district_id": "59"
+    },
+    {
+        "id": "495",
+        "name": "SonÃ¡ (Cabecera)",
+        "district_id": "60"
+    },
+    {
+        "id": "496",
+        "name": "BahÃ­a Honda",
+        "district_id": "60"
+    },
+    {
+        "id": "497",
+        "name": "Calidonia",
+        "district_id": "60"
+    },
+    {
+        "id": "498",
+        "name": "CativÃ©",
+        "district_id": "60"
+    },
+    {
+        "id": "499",
+        "name": "El MaraÃ±Ã³n",
+        "district_id": "60"
+    },
+    {
+        "id": "500",
+        "name": "Guarumal",
+        "district_id": "60"
+    },
+    {
+        "id": "501",
+        "name": "La Soledad",
+        "district_id": "60"
+    },
+    {
+        "id": "502",
+        "name": "Quebrada de Oro",
+        "district_id": "60"
+    },
+    {
+        "id": "503",
+        "name": "RÃ­o Grande",
+        "district_id": "60"
+    },
+    {
+        "id": "504",
+        "name": "Rodeo Viejo",
+        "district_id": "60"
+    },
+    {
+        "id": "505",
+        "name": "Hicaco",
+        "district_id": "60"
+    },
+    {
+        "id": "506",
+        "name": "Llano de Catival o Mariato (Cabecera)",
+        "district_id": "61"
+    },
+    {
+        "id": "507",
+        "name": "Arenas",
+        "district_id": "61"
+    },
+    {
+        "id": "508",
+        "name": "El Cacao",
+        "district_id": "61"
+    },
+    {
+        "id": "509",
+        "name": "Quebro",
+        "district_id": "61"
+    },
+    {
+        "id": "510",
+        "name": "Tebario",
+        "district_id": "61"
+    },
+    {
+        "id": "511",
+        "name": "NarganÃ¡ (Cabecera)",
+        "district_id": "62"
+    },
+    {
+        "id": "512",
+        "name": "AiligandÃ­",
+        "district_id": "62"
+    },
+    {
+        "id": "513",
+        "name": "Puerto ObaldÃ­a",
+        "district_id": "62"
+    },
+    {
+        "id": "514",
+        "name": "TubualÃ¡",
+        "district_id": "62"
+    },
+    {
+        "id": "515",
+        "name": "Cirilo Guainora (Cabecera)",
+        "district_id": "63"
+    },
+    {
+        "id": "516",
+        "name": "Lajas Blancas",
+        "district_id": "63"
+    },
+    {
+        "id": "517",
+        "name": "Manuel Ortega",
+        "district_id": "63"
+    },
+    {
+        "id": "518",
+        "name": "RÃ­o SÃ¡balo",
+        "district_id": "64"
+    },
+    {
+        "id": "519",
+        "name": "JingurudÃ³",
+        "district_id": "64"
+    },
+    {
+        "id": "520",
+        "name": "Soloy (Cabecera)",
+        "district_id": "65"
+    },
+    {
+        "id": "521",
+        "name": "Boca de Balsa",
+        "district_id": "65"
+    },
+    {
+        "id": "522",
+        "name": "CamarÃ³n Arriba",
+        "district_id": "65"
+    },
+    {
+        "id": "523",
+        "name": "Cerro Banco",
+        "district_id": "65"
+    },
+    {
+        "id": "524",
+        "name": "Cerro de Patena",
+        "district_id": "65"
+    },
+    {
+        "id": "525",
+        "name": "Emplanada de Chorcha",
+        "district_id": "65"
+    },
+    {
+        "id": "526",
+        "name": "NÃ¤mnoni",
+        "district_id": "65"
+    },
+    {
+        "id": "527",
+        "name": "Niba",
+        "district_id": "65"
+    },
+    {
+        "id": "528",
+        "name": "Hato PilÃ³n (Cabecera)",
+        "district_id": "66"
+    },
+    {
+        "id": "529",
+        "name": "Cascabel",
+        "district_id": "66"
+    },
+    {
+        "id": "530",
+        "name": "Hato CorotÃº",
+        "district_id": "66"
+    },
+    {
+        "id": "531",
+        "name": "Hato Culantro",
+        "district_id": "66"
+    },
+    {
+        "id": "532",
+        "name": "Hato Jobo",
+        "district_id": "66"
+    },
+    {
+        "id": "533",
+        "name": "Hato JulÃ­",
+        "district_id": "66"
+    },
+    {
+        "id": "534",
+        "name": "Quebrada de Loro",
+        "district_id": "66"
+    },
+    {
+        "id": "535",
+        "name": "Salto DupÃ­",
+        "district_id": "66"
+    },
+    {
+        "id": "536",
+        "name": "Chichica (Cabecera)",
+        "district_id": "67"
+    },
+    {
+        "id": "537",
+        "name": "Alto Caballero",
+        "district_id": "67"
+    },
+    {
+        "id": "538",
+        "name": "Bakama",
+        "district_id": "67"
+    },
+    {
+        "id": "539",
+        "name": "Cerro CaÃ±a",
+        "district_id": "67"
+    },
+    {
+        "id": "540",
+        "name": "Cerro Puerco",
+        "district_id": "67"
+    },
+    {
+        "id": "541",
+        "name": "KrÃ¼a",
+        "district_id": "67"
+    },
+    {
+        "id": "542",
+        "name": "Maraca",
+        "district_id": "67"
+    },
+    {
+        "id": "543",
+        "name": "Nibra",
+        "district_id": "67"
+    },
+    {
+        "id": "544",
+        "name": "PeÃ±a Blanca",
+        "district_id": "67"
+    },
+    {
+        "id": "545",
+        "name": "Roka",
+        "district_id": "67"
+    },
+    {
+        "id": "546",
+        "name": "Sitio Prado",
+        "district_id": "67"
+    },
+    {
+        "id": "547",
+        "name": "Ãmani",
+        "district_id": "67"
+    },
+    {
+        "id": "548",
+        "name": "Cerro Iglesias (Cabecera)",
+        "district_id": "68"
+    },
+    {
+        "id": "549",
+        "name": "Hato ChamÃ­",
+        "district_id": "68"
+    },
+    {
+        "id": "550",
+        "name": "JÃ¤daberi",
+        "district_id": "68"
+    },
+    {
+        "id": "551",
+        "name": "Lajero",
+        "district_id": "68"
+    },
+    {
+        "id": "552",
+        "name": "Susama",
+        "district_id": "68"
+    },
+    {
+        "id": "553",
+        "name": "Buenos Aires (Cabecera)",
+        "district_id": "69"
+    },
+    {
+        "id": "554",
+        "name": "Agua de Salud",
+        "district_id": "69"
+    },
+    {
+        "id": "555",
+        "name": "Alto de JesÃºs",
+        "district_id": "69"
+    },
+    {
+        "id": "556",
+        "name": "Cerro Pelado",
+        "district_id": "69"
+    },
+    {
+        "id": "557",
+        "name": "El Bale",
+        "district_id": "69"
+    },
+    {
+        "id": "558",
+        "name": "El ParedÃ³n",
+        "district_id": "69"
+    },
+    {
+        "id": "559",
+        "name": "El Piro",
+        "district_id": "69"
+    },
+    {
+        "id": "560",
+        "name": "Guayabito",
+        "district_id": "69"
+    },
+    {
+        "id": "561",
+        "name": "GÃ¼ibale",
+        "district_id": "69"
+    },
+    {
+        "id": "562",
+        "name": "El PeÃ±on",
+        "district_id": "69"
+    },
+    {
+        "id": "563",
+        "name": "El Piro No. 2 (Muakwata Kubu)",
+        "district_id": "69"
+    },
+    {
+        "id": "564",
+        "name": "Bisira (Cabecera)",
+        "district_id": "70"
+    },
+    {
+        "id": "565",
+        "name": "Cantalante",
+        "district_id": "70"
+    },
+    {
+        "id": "566",
+        "name": "Guoroni",
+        "district_id": "70"
+    },
+    {
+        "id": "567",
+        "name": "KankintÃº",
+        "district_id": "70"
+    },
+    {
+        "id": "568",
+        "name": "MÃ¼nÃ¼ni",
+        "district_id": "70"
+    },
+    {
+        "id": "569",
+        "name": "Piedra Roja",
+        "district_id": "70"
+    },
+    {
+        "id": "570",
+        "name": "Tolote",
+        "district_id": "70"
+    },
+    {
+        "id": "571",
+        "name": "KusapÃ­n (Cabecera)",
+        "district_id": "71"
+    },
+    {
+        "id": "572",
+        "name": "BahÃ­a Azul",
+        "district_id": "71"
+    },
+    {
+        "id": "573",
+        "name": "CalovÃ©bora o Santa Catalina",
+        "district_id": "71"
+    },
+    {
+        "id": "574",
+        "name": "Loma Yuca",
+        "district_id": "71"
+    },
+    {
+        "id": "575",
+        "name": "RÃ­o ChiriquÃ­",
+        "district_id": "71"
+    },
+    {
+        "id": "576",
+        "name": "Tobobe",
+        "district_id": "71"
+    },
+    {
+        "id": "577",
+        "name": "Valle Bonito",
+        "district_id": "71"
+    },
+    {
+        "id": "578",
+        "name": "Samboa (Cabecera)",
+        "district_id": "72"
+    },
+    {
+        "id": "579",
+        "name": "BÃ¼ri",
+        "district_id": "72"
+    },
+    {
+        "id": "580",
+        "name": "Guariviara",
+        "district_id": "72"
+    },
+    {
+        "id": "581",
+        "name": "Man Creek",
+        "district_id": "72"
+    },
+    {
+        "id": "582",
+        "name": "Tuwai",
+        "district_id": "72"
+    },
+    {
+        "id": "583",
+        "name": "Santa Catalina o CalovÃ©bora (Bladeshia) (Cabecera)",
+        "district_id": "73"
+    },
+    {
+        "id": "584",
+        "name": "Alto BilingÃ¼e (GdogÃ¼eshia)",
+        "district_id": "73"
+    },
+    {
+        "id": "585",
+        "name": "Loma Yuca (Ljuicho)",
+        "district_id": "73"
+    },
+    {
+        "id": "586",
+        "name": "San Pedrito (JikÃ¼i)",
+        "district_id": "73"
+    },
+    {
+        "id": "587",
+        "name": "Valle Bonito (Dogata)",
+        "district_id": "73"
+    },
+    {
+        "id": "588",
+        "name": "ArraijÃ¡n (Cabecera)",
+        "district_id": "74"
+    },
+    {
+        "id": "589",
+        "name": "Juan DemÃ³stenes Arosemena",
+        "district_id": "74"
+    },
+    {
+        "id": "590",
+        "name": "Nuevo Emperador",
+        "district_id": "74"
+    },
+    {
+        "id": "591",
+        "name": "Santa Clara",
+        "district_id": "74"
+    },
+    {
+        "id": "592",
+        "name": "Veracruz",
+        "district_id": "74"
+    },
+    {
+        "id": "593",
+        "name": "Vista Alegre",
+        "district_id": "74"
+    },
+    {
+        "id": "594",
+        "name": "Burunga",
+        "district_id": "74"
+    },
+    {
+        "id": "595",
+        "name": "Cerro Silvestre",
+        "district_id": "74"
+    },
+    {
+        "id": "596",
+        "name": "Capira (Cabecera)",
+        "district_id": "75"
+    },
+    {
+        "id": "597",
+        "name": "Caimito",
+        "district_id": "75"
+    },
+    {
+        "id": "598",
+        "name": "Campana",
+        "district_id": "75"
+    },
+    {
+        "id": "599",
+        "name": "CermeÃ±o",
+        "district_id": "75"
+    },
+    {
+        "id": "600",
+        "name": "CirÃ­ de los Sotos",
+        "district_id": "75"
+    },
+    {
+        "id": "601",
+        "name": "CirÃ­ Grande",
+        "district_id": "75"
+    },
+    {
+        "id": "602",
+        "name": "El Cacao",
+        "district_id": "75"
+    },
+    {
+        "id": "603",
+        "name": "La Trinidad",
+        "district_id": "75"
+    },
+    {
+        "id": "604",
+        "name": "Las Ollas Arriba",
+        "district_id": "75"
+    },
+    {
+        "id": "605",
+        "name": "LÃ­dice",
+        "district_id": "75"
+    },
+    {
+        "id": "606",
+        "name": "Villa Carmen",
+        "district_id": "75"
+    },
+    {
+        "id": "607",
+        "name": "Villa Rosario",
+        "district_id": "75"
+    },
+    {
+        "id": "608",
+        "name": "Santa Rosa",
+        "district_id": "75"
+    },
+    {
+        "id": "609",
+        "name": "Chame (Cabecera)",
+        "district_id": "76"
+    },
+    {
+        "id": "610",
+        "name": "Bejuco",
+        "district_id": "76"
+    },
+    {
+        "id": "611",
+        "name": "Buenos Aires",
+        "district_id": "76"
+    },
+    {
+        "id": "612",
+        "name": "Cabuya",
+        "district_id": "76"
+    },
+    {
+        "id": "613",
+        "name": "ChicÃ¡",
+        "district_id": "76"
+    },
+    {
+        "id": "614",
+        "name": "El LÃ­bano",
+        "district_id": "76"
+    },
+    {
+        "id": "615",
+        "name": "Las Lajas",
+        "district_id": "76"
+    },
+    {
+        "id": "616",
+        "name": "Nueva Gorgona",
+        "district_id": "76"
+    },
+    {
+        "id": "617",
+        "name": "Punta Chame",
+        "district_id": "76"
+    },
+    {
+        "id": "618",
+        "name": "Sajalices",
+        "district_id": "76"
+    },
+    {
+        "id": "619",
+        "name": "SorÃ¡",
+        "district_id": "76"
+    },
+    {
+        "id": "620",
+        "name": "Barrio Balboa",
+        "district_id": "77"
+    },
+    {
+        "id": "621",
+        "name": "Barrio ColÃ³n",
+        "district_id": "77"
+    },
+    {
+        "id": "622",
+        "name": "Amador",
+        "district_id": "77"
+    },
+    {
+        "id": "623",
+        "name": "Arosemena",
+        "district_id": "77"
+    },
+    {
+        "id": "624",
+        "name": "El Arado",
+        "district_id": "77"
+    },
+    {
+        "id": "625",
+        "name": "El Coco",
+        "district_id": "77"
+    },
+    {
+        "id": "626",
+        "name": "Feuillet",
+        "district_id": "77"
+    },
+    {
+        "id": "627",
+        "name": "Guadalupe",
+        "district_id": "77"
+    },
+    {
+        "id": "628",
+        "name": "Herrera",
+        "district_id": "77"
+    },
+    {
+        "id": "629",
+        "name": "Hurtado",
+        "district_id": "77"
+    },
+    {
+        "id": "630",
+        "name": "Iturralde",
+        "district_id": "77"
+    },
+    {
+        "id": "631",
+        "name": "La Represa",
+        "district_id": "77"
+    },
+    {
+        "id": "632",
+        "name": "Los DÃ­az",
+        "district_id": "77"
+    },
+    {
+        "id": "633",
+        "name": "Mendoza",
+        "district_id": "77"
+    },
+    {
+        "id": "634",
+        "name": "ObaldÃ­a",
+        "district_id": "77"
+    },
+    {
+        "id": "635",
+        "name": "Playa Leona",
+        "district_id": "77"
+    },
+    {
+        "id": "636",
+        "name": "Puerto Caimito",
+        "district_id": "77"
+    },
+    {
+        "id": "637",
+        "name": "Santa Rita",
+        "district_id": "77"
+    },
+    {
+        "id": "638",
+        "name": "San Carlos (Cabecera)",
+        "district_id": "78"
+    },
+    {
+        "id": "639",
+        "name": "El Espino",
+        "district_id": "78"
+    },
+    {
+        "id": "640",
+        "name": "El Higo",
+        "district_id": "78"
+    },
+    {
+        "id": "641",
+        "name": "Guayabito",
+        "district_id": "78"
+    },
+    {
+        "id": "642",
+        "name": "La Ermita",
+        "district_id": "78"
+    },
+    {
+        "id": "643",
+        "name": "La Laguna",
+        "district_id": "78"
+    },
+    {
+        "id": "644",
+        "name": "Las Uvas",
+        "district_id": "78"
+    },
+    {
+        "id": "645",
+        "name": "Los Llanitos",
+        "district_id": "78"
+    },
+    {
+        "id": "646",
+        "name": "San JosÃ©",
+        "district_id": "78"
+    }
+]

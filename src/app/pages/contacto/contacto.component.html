@@ -1,0 +1,118 @@
+<app-loading></app-loading>
+<app-navbar></app-navbar>
+<main>
+  <!-- BANNER -->
+  <section id="wrap-banner">
+    <div id="wrap-textos-banner" class="ele">
+      <div id="hgroup">
+        <h1>EN TU PUERTA</h1>
+        <h1>RÁPIDO Y FÁCIL</h1>
+      </div>
+
+      <button>Contáctenos</button>
+    </div>
+    <div id="wrap-img-contacto" class="ele">
+      <img src="../../../assets/img-contacto.png" alt="Contacto" />
+    </div>
+    <img
+      id="background"
+      src="../../../assets/FONDOS/fondo-segundario.jpg"
+      alt="Background"
+    />
+  </section>
+
+  <!-- INFO CONTACTO -->
+  <section id="wrap-info">
+    <div id="wrap-info-detalles">
+      <h5>Información de contacto</h5>
+
+      <div id="wrap-tarjetas">
+        <div class="tarjetas shadow">
+          <i class="fas fa-location-arrow"></i>
+          <h6>¿Dónde estamos ubicados?</h6>
+          <p>
+            Pueblo Nuevo calle 16, detrás de antigua Estrella Azul. (En la
+            entrada de la calle).
+          </p>
+        </div>
+
+        <div class="tarjetas shadow">
+          <i class="fas fa-clock"></i>
+          <h6>Horario de atención</h6>
+          <p style="word-break: break-word;">
+            Estamos abiertos de Lunes a Viernes de 9:00 am a
+            6:00 pm. Sábados de 9: 00 am a 1:00 pm.
+          </p>
+        </div>
+
+        <div class="tarjetas shadow">
+          <i class="fas fa-mobile-alt"></i>
+          <h6>Contacto</h6>
+          <p>Cel.: {{ datosEstaticos.telefono }}</p>
+          <p>Correo: {{ datosEstaticos.correo }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATOS CONTACTO -->
+  <section class="shadow" id="wrap-mensaje">
+    <div class="ele">
+      <img src="../../../assets/shapes/shape1.png" alt="" />
+      <form id="formulario" (ngSubmit)="enviarMensaje()" [formGroup]="forma">
+        <div id="forma">
+          <h4>Contáctenos</h4>
+
+          <!-- nombre -->
+          <input
+            class="form-control"
+            type="text"
+            formControlName="nombre"
+            placeholder="Nombre"
+          />
+          <label class="label-warning" *ngIf="!flagNombre">{{
+            txtValidNombre
+          }}</label>
+
+          <!-- correo -->
+          <input
+            class="form-control"
+            type="email"
+            formControlName="correo"
+            placeholder="Correo electrónico"
+          />
+          <label class="label-warning" *ngIf="!flagCorreo">{{
+            txtValidCorreo
+          }}</label>
+
+          <!-- mensaje -->
+          <textarea
+            class="form-control"
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            formControlName="mensaje"
+            placeholder="Mensaje"
+          ></textarea>
+          <label class="label-warning" *ngIf="!flagMensaje">{{
+            txtValidMensaje
+          }}</label>
+
+          <button type="submit" class="btn btn-warning" #btnEnviarMSG>
+            Enviar mensaje
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="ele">
+      <div id="wrap-text-img-contact-us">
+        <div id="img-contac-us">
+          <img src="../../../assets/contact-us.png" alt="Contact Us" />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

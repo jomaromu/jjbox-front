@@ -1,0 +1,107 @@
+<section id="modal" #modal>
+  <form
+    id="formulario"
+    class="animate__animated animate__faster"
+    [formGroup]="forma"
+    (ngSubmit)="guardarPerfil()"
+    #form
+  >
+    <!-- header -->
+    <section id="header">
+      <div id="titulo">
+        <i class="fas fa-marker"></i>
+        <h5>Editar cliente</h5>
+      </div>
+      <i class="fas fa-times-circle" role="button" (click)="cerrarModal()"></i>
+    </section>
+
+    <!-- datos personales -->
+    <section class="datos-personales">
+      <h6>Datos personales</h6>
+      <div id="wrap-inputs">
+        <!-- nombre -->
+        <div>
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            formControlName="nombre"
+          />
+        </div>
+
+        <!-- telefono -->
+        <div>
+          <label for="telefono" class="form-label">Teléfono:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="telefono"
+            formControlName="telefono"
+            usuario.data.telefono
+            (keyup)="validarTelefono()"
+          />
+          <label style="font-size: 13px; color: tomato">{{ objValTel }}</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- direccion -->
+    <section class="datos-personales">
+      <h6>Dirección</h6>
+      <div id="wrap-inputs">
+        <!-- provincia -->
+        <select
+          class="form-select"
+          (change)="cargarDistritos()"
+          formControlName="provincia"
+        >
+          <option selected value="null">Provincia</option>
+          <option *ngFor="let provincia of provincias" [value]="provincia.id">
+            {{ provincia.name }}
+          </option>
+        </select>
+
+        <!-- distrito -->
+        <select
+          class="form-select"
+          formControlName="distrito"
+          (change)="cargarCorregimiento()"
+        >
+          <option *ngFor="let distrito of distritos" [value]="distrito.id">
+            {{ distrito.name }}
+          </option>
+        </select>
+
+        <!-- corregimiento -->
+        <select class="form-select" formControlName="corregimiento">
+          <option
+            *ngFor="let corregimiento of corregimientos"
+            [value]="corregimiento.id"
+          >
+            {{ corregimiento.name }}
+          </option>
+        </select>
+
+        <!-- calle/barriada -->
+        <div>
+          <input
+            type="text"
+            class="form-control"
+            id="barriada"
+            formControlName="direccion"
+            placeholder="Calle N. Granada, Casa #50"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- botones -->
+    <section id="wrap-botones">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <button type="button" class="btn btn-danger" (click)="cerrarModal()">
+        Cancelar
+      </button>
+    </section>
+  </form>
+</section>

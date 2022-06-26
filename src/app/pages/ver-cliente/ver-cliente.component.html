@@ -1,0 +1,91 @@
+<app-crear-editar-producto></app-crear-editar-producto>
+<app-signature></app-signature>
+<app-menu-sidebar></app-menu-sidebar>
+<app-perfil [usuario]="usuario" [ocultarPass]="ocultarPass"></app-perfil>
+
+<section id="wrap-compras">
+  <section id="wrap-header">
+    <i class="fas fa-hand-holding-usd"></i>
+    <h5>Historial de compras</h5>
+  </section>
+  <section id="wrap-tabla">
+    <!-- tabla productos pedidos general admin -->
+    <table class="table table-hover table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ID</th>
+          <!-- <th>Nombre</th> -->
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Cliente</th>
+          <th>Tipo</th>
+          <th>Delivery</th>
+          <th>Total</th>
+          <th>Controles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pPedido of productosPedidos?.datas; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ pPedido?.idReferencia }}</td>
+          <!-- <td>{{ pPedido?.nombre }}</td> -->
+          <td style="max-width: 180px; word-wrap: break-word">
+            {{ pPedido?.descripcion }}
+          </td>
+          <td>{{ pPedido?.precio | currency: "USD":"symbol" }}</td>
+          <td>{{ pPedido?.cliente?.correo }}</td>
+          <td>
+            <span
+              *ngIf="pPedido.tipo === 'Pendiente'"
+              class="badge alert-danger"
+              style="padding: 7px"
+            >
+              {{ pPedido?.tipo }}
+            </span>
+            <span
+              *ngIf="pPedido.tipo === 'Entregado'"
+              class="badge alert-success"
+              style="padding: 7px"
+            >
+              {{ pPedido?.tipo }}
+            </span>
+          </td>
+          <td>{{ pPedido?.delivery | currency: "USD":"symbol" }}</td>
+          <td>
+            {{ pPedido.precio + pPedido.delivery | currency: "USD":"symbol" }}
+          </td>
+          <td>
+            <div id="wrap-controles">
+              <i
+                class="fas fa-eye"
+                *ngIf="pPedido.tipo === 'Entregado'"
+                (click)="crearEditarPedido('editar', pPedido._id)"
+                role="button"
+              ></i>
+              <i
+                class="fas fa-pen-alt"
+                *ngIf="pPedido.tipo === 'Pendiente'"
+                (click)="crearEditarPedido('editar', pPedido._id)"
+                role="button"
+              ></i>
+              <i
+                class="fas fa-trash-alt"
+                style="color: tomato"
+                role="button"
+                (click)="eliminarPpedido(pPedido._id)"
+                *ngIf="pPedido.tipo === 'Pendiente'"
+              ></i>
+              <i
+                class="fas fa-file-invoice"
+                role="button"
+                (click)="abrirSignature(pPedido._id)"
+                *ngIf="pPedido.tipo === 'Entregado'"
+              ></i>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</section>

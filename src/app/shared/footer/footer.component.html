@@ -1,0 +1,59 @@
+<footer>
+  <section id="wrap-general">
+    <section id="wrap-elementos">
+      <img src="../../../assets/logo-jjboxpty-blanco.png" alt="JJBOXPTY" />
+
+      <ul>
+        <li
+          class="item-activo"
+          routerLink="/inicio"
+          routerLinkActive="item-active"
+        >
+          INICIO
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/como-importar"
+          routerLinkActive="item-active"
+        >
+          COMO IMPORTAR
+        </li>
+        <li
+          class="item-activo"
+          routerLink="/contacto"
+          routerLinkActive="item-active"
+        >
+          CONTACTO
+        </li>
+        <li class="item-activo" #btnEntrarSalir>ENTRAR</li>
+      </ul>
+
+      <div id="wrap-redes">
+        <p>SIGUENOS</p>
+        <div id="redes">
+          <li>
+            <a [href]="datosEstaticos.facebook" target="_blank">
+              <i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a [href]="datosEstaticos.instagram" target="_blank"
+              ><i class="fab fa-instagram-square"></i
+            ></a>
+          </li>
+          <li>
+            <a [href]="datosEstaticos.twitter" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+        </div>
+        <p>Teléfono: {{ datosEstaticos.telefono }}</p>
+        <p>{{ datosEstaticos.correo }}</p>
+      </div>
+    </section>
+    <p style="font-size: 0.9rem">
+      <i class="fas fa-copyright"></i> JJBOXPTY | Todos los derechos reservados
+      - {{ anio }}
+    </p>
+  </section>
+</footer>

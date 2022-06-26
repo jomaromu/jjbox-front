@@ -1,0 +1,354 @@
+@import "../../../styles.scss";
+
+@media screen and(max-width: 1356px) {
+  section#wrap-info {
+    width: 90%;
+  }
+
+  /* ======================================================= DATOS CONTACTO ======================================================= */
+
+  #wrap-mensaje {
+    // border: 1px solid blue;
+    width: 85% !important;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  section#wrap-banner div.ele:nth-child(2) {
+    display: none !important;
+  }
+
+  /* ======================================================= DATOS CONTACTO ======================================================= */
+
+  #wrap-mensaje {
+    // border: 1px solid blue;
+    width: 75% !important;
+  }
+}
+
+@media screen and(max-width: 1090px) {
+  section#wrap-info {
+    width: 100%;
+  }
+}
+
+@media screen and(max-width: 992px) {
+  section#wrap-info {
+    width: 80%;
+  }
+  div#wrap-tarjetas {
+    flex-direction: column !important;
+    justify-content: space-between;
+  }
+
+  div.tarjetas {
+    width: 480px !important;
+    height: 350px;
+  }
+
+  div.tarjetas:nth-child(2) {
+    // border: 1px solid blue;
+    margin: 50px 0;
+  }
+
+  /* ======================================================= DATOS CONTACTO ======================================================= */
+
+  #wrap-mensaje {
+    // border: 1px solid blue;
+    width: 95% !important;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  section#wrap-banner {
+    justify-content: center !important;
+  }
+
+  div.ele {
+    // border: 1px solid red;
+    width: 100% !important;
+  }
+
+  /* ======================================================= DATOS CONTACTO ======================================================= */
+
+  section#wrap-mensaje {
+    width: 70% !important;
+  }
+
+  div.ele:nth-child(2) {
+    // border: 1px solid red;
+    display: none !important;
+  }
+
+  div.ele:nth-child(1) {
+    // border: 5px solid red !important;
+    width: 100% !important;
+    border-radius: calc($border-radius-general * 3);
+
+
+    img {
+      width: 120% !important;
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  div#wrap-textos-banner {
+    // border: 1px solid blue;
+    justify-content: space-evenly !important;
+    @include fuente-principal(Poppins, black, 900);
+    height: 270px;
+
+    button {
+      // border: 1px solid rgb(176, 11, 218) !important;
+      width: 300px !important;
+      height: 50px !important;
+      font-size: calc($font-size * 1.3) !important;
+    }
+  }
+
+  /* ======================================================= DATOS CONTACTO ======================================================= */
+
+  section#wrap-mensaje {
+    width: 90% !important;
+  }
+}
+
+@media screen and(max-width: 480px) {
+  section#wrap-info {
+    width: 90%;
+  }
+
+  div.tarjetas {
+    width: 100% !important;
+    // height: 350px;
+  }
+
+  div.tarjetas:nth-child(2) {
+    // border: 1px solid blue;
+    margin: 50px 0;
+  }
+}
+
+.label-warning {
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  padding: 0;
+  margin-top: -9px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../assets/FONDOS/fondo-principal.jpg");
+  background-clip: border-box;
+  background-repeat: repeat-y;
+}
+
+/* ======================================================= BANNER ======================================================= */
+
+#wrap-banner {
+  // border: 1px solid blue;
+  width: 100%;
+  height: calc(100vh - ($alto-nav * 2));
+  // overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+
+  #background {
+    // border: 1px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - ($alto-nav * 2));
+    object-fit: cover;
+  }
+
+  #wrap-img-contacto {
+    // border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height: 100%;
+
+    img {
+      // border: 1px solid green;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .ele {
+    // border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
+  }
+
+  #wrap-textos-banner {
+    // border: 1px solid blue;
+    justify-content: space-evenly !important;
+    @include fuente-principal(Poppins, black, 900);
+    height: 270px;
+
+    #hgroup {
+      text-align: center;
+
+      h1:nth-child(1) {
+        color: $color-principal;
+      }
+    }
+
+    button {
+      width: 350px;
+      height: 60px;
+      background-color: lighten($color: $color-principal, $amount: 10);
+      outline: none;
+      border: none;
+      color: lighten($color: $fuente-gris, $amount: 60);
+      font-size: calc($font-size * 1.5);
+      font-family: "Lato";
+      font-weight: 500 !important;
+    }
+  }
+}
+
+/* ======================================================= INFO CONTACTO ======================================================= */
+
+#wrap-info {
+  // border: 1px solid blue;
+  width: $page-width;
+  margin-top: 150px;
+  // margin-bottom: 250px;
+
+  #wrap-info-detalles {
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h5 {
+      align-self: flex-start;
+      @include fuente-principal(Poppins, $color-principal, 400);
+      font-size: calc($font-size * 1.5);
+      margin-bottom: 75px;
+    }
+
+    #wrap-tarjetas {
+      // border: 1px solid pink;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+
+      .tarjetas {
+        width: 300px;
+        height: 350px;
+        border-radius: $border-radius-general;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px;
+        text-align: justify;
+
+        i {
+          font-size: calc($font-size * 2.2);
+          color: $color-principal;
+        }
+      }
+    }
+  }
+}
+
+/* ======================================================= DATOS CONTACTO ======================================================= */
+
+#wrap-mensaje {
+  // border: 1px solid red;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  // border: 1px solid blue;
+  width: calc($page-width - ($page-width * 0.1));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: calc($border-radius-general * 3);
+  height: 450px;
+
+  .ele {
+    // border: 1px solid green;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    #wrap-text-img-contact-us {
+      display: flex;
+      flex-direction: column;
+
+      #img-contac-us {
+        // border: 1px solid blue;
+        width: 450px;
+        height: 450px;
+        position: relative;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-top-left-radius: calc($border-radius-general * 3);
+      border-bottom-left-radius: calc($border-radius-general * 3);
+    }
+
+    #formulario {
+      @include fuente-principal(Lato, white, 900);
+      z-index: 99;
+
+      #forma {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+
+        textarea,
+        input {
+          padding: 5px;
+        }
+
+        textarea {
+          resize: none;
+        }
+
+        button {
+          padding: 5px 10px;
+          @include fuente-principal(Lato, rgb(0, 0, 0), 900);
+        }
+      }
+    }
+  }
+}

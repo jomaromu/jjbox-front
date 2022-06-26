@@ -1,0 +1,283 @@
+@import "../../../styles.scss";
+
+@media screen and(max-width: 1241px) {
+  nav > #wrap-nav1 > #wrap-menu1 {
+    // background-color: red;
+    width: calc($page-width * 1.2);
+  }
+
+  nav > #wrap-nav2 {
+    // background-color: red;
+    width: calc($page-width * 1.2);
+  }
+}
+
+@media screen and(max-width: 992px) {
+  nav > #wrap-nav1 {
+    display: none;
+  }
+
+  nav > #wrap-nav2 {
+    display: none;
+  }
+
+  div#navbar-movil {
+    display: flex;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  div#navbar-movil {
+    // border: 1px solid lawngreen;
+    width: 100%;
+  }
+}
+
+@media screen and(max-width: 576px) {
+  div#navbar-movil {
+    i {
+      width: calc($font-size * 2.1);
+      font-size: calc($font-size * 2.1);
+    }
+
+    img {
+      height: 100%;
+      width: calc($alto-logo * 0.7);
+      object-fit: scale-down;
+    }
+  }
+}
+
+@media screen and(max-width: 440px) {
+  div#navbar-movil {
+    height: calc($alto-logo * 0.6);
+    i {
+      width: calc($font-size * 1.5);
+      font-size: calc($font-size * 1.5);
+    }
+
+    img {
+      height: 100%;
+      width: calc($alto-logo * 0.8);
+      object-fit: scale-down;
+    }
+  }
+}
+
+nav {
+  // background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+i {
+  margin-right: $space-icons;
+  font-size: calc($font-size * 1.1);
+  color: $color-principal;
+}
+
+i:last-child {
+  margin-right: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+.item-active {
+  color: $color-principal;
+}
+
+.item-activo {
+  transition: all ease 0.3s;
+}
+
+.item-activo:hover {
+  color: $color-principal;
+}
+
+#wrap-nav1 {
+  background-color: $gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  @include fuente-principal($font-family-principal, $fuente-gris, 400);
+
+  #wrap-menu1 {
+    // background-color: rgba(0, 0, 255, 0.164);
+    width: $page-width;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .wrap-items1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      // background-color: blue;
+    }
+
+    .wrap-items1 li {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: $font-size;
+      margin-right: 25px;
+      // background-color: blue;
+    }
+
+    .wrap-items1 li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  #wrap-menu1 ul:first-child {
+    li {
+      // background-color: red;
+      cursor: auto;
+    }
+  }
+
+  #wrap-menu1 ul:last-child li:first-child {
+    cursor: auto;
+  }
+}
+
+#wrap-nav2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: $page-width;
+  height: 115px;
+  // padding: 7px;
+  font-size: 14px;
+  @include fuente-principal($font-family-principal, $fuente-gris, bold);
+  overflow: hidden;
+
+  img {
+    height: $alto-logo;
+    // height: 100%;
+  }
+
+  #wrap-menu2 {
+    // background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #wrap-menu2 ul {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #wrap-menu2 ul li {
+    margin-left: 25px;
+  }
+
+  #wrap-menu2 ul:first-child {
+    margin-right: 40px;
+  }
+
+  #wrap-menu2 ul:last-child li:first-child {
+    background-color: $color-principal;
+    border-radius: $border-radius-general;
+    width: 170px;
+    height: 40px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* ============================ MOVIL ============================ */
+#navbar-movil {
+  // border: 1px solid green;
+  display: none;
+  height: calc($alto-logo);
+  padding: 7px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  // width: calc($page-width * 1.2);
+  width: 100%;
+
+  i {
+    width: calc($font-size * 2.2);
+    text-align: right;
+    font-size: calc($font-size * 2.2);
+    // height: 80px;
+    cursor: pointer;
+  }
+
+  img {
+    height: 100%;
+    width: $alto-logo;
+    object-fit: scale-down;
+  }
+
+  #fondo {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+
+    #wrap-items-movil-menu {
+      // border: 1px solid red;
+      height: calc(100vh - 80px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      #wrap-menu-movil {
+        // border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin-bottom: 45px;
+
+        li {
+          padding: 15px;
+          // background-color: pink;
+          width: 100%;
+          text-align: center;
+          border-bottom: 1px solid $color-principal;
+        }
+      }
+    }
+
+    #ul-wrap-redes-movil {
+      // border: 1px solid green;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 150px;
+    }
+  }
+}

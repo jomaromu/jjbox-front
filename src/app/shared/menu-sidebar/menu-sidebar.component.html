@@ -1,0 +1,17 @@
+<section id="wrap-menu">
+  <!-- menu hamburguesa -->
+
+  <i class="fas fa-bars" role="button" (click)="abrirCerrarMenu()"></i>
+
+  <section id="wrap-busqueda">
+    <div id="divBusqueda">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Búscar..."
+        #inputBusqueda
+      />
+      <i class="fas fa-search" role="button" (click)="busqueda()"></i>
+    </div>
+  </section>
+</section>

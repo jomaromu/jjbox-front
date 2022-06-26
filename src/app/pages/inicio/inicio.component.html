@@ -1,0 +1,234 @@
+<app-loading></app-loading>
+
+<app-navbar></app-navbar>
+
+<main>
+  <!-- SWIPER -->
+  <section id="section-swiper">
+    <swiper id="swiper-principal" [config]="config">
+      <!-- slide 1 -->
+      <ng-template swiperSlide>
+        <div class="wrap-desc">
+          <img
+            src="../../../assets/pointer-map.png"
+            style="width: 130px"
+            alt="Entregas exitosas"
+          />
+          <span class="txt-slide1-entregas">Entregas</span>
+          <span class="txt-slide1-exitosas">Exitosas</span>
+        </div>
+        <button class="btn-saber-mas" routerLink="/contacto">
+          Saber más <i class="fas fa-angle-double-right"></i>
+        </button>
+        <img
+          class="img-slide"
+          src="../../../assets/slide-1.jpg"
+          alt="Compra fácil y rápido"
+        />
+      </ng-template>
+
+      <!-- slide 2 -->
+      <ng-template swiperSlide>
+        <div class="wrap-desc-casillero-gratis">
+          <img
+            src="../../../assets/cart.png"
+            alt="Casillero gratis!"
+            style="height: 200px"
+          />
+          <span class="txt-slide2-casillero">Casilleros</span>
+          <span class="txt-slide2-gratis">Gratis!</span>
+        </div>
+        <button class="btn-saber-mas" routerLink="/contacto">
+          Saber más <i class="fas fa-angle-double-right"></i>
+        </button>
+        <img
+          class="img-slide"
+          src="../../../assets/slide-2.jpg"
+          alt="Compra fácil y rápido"
+        />
+      </ng-template>
+
+      <!-- slide 3 -->
+      <ng-template swiperSlide>
+        <div class="wrap-desc-compra-facil">
+          <span class="txt-slide3-compra">Traemos tus compras</span>
+          <span class="txt-slide3-facil">FÁCIL Y RÁPIDO</span>
+        </div>
+        <button class="btn-saber-mas" routerLink="/contacto">
+          Saber más <i class="fas fa-angle-double-right"></i>
+        </button>
+        <img
+          class="img-slide"
+          src="../../../assets/slide-3.jpg"
+          alt="Compra fácil y rápido"
+        />
+      </ng-template>
+    </swiper>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="section-servicios">
+    <div class="servicios" id="servios-1">
+      <div id="wrap-servicios-1">
+        <h4>SERVICIOS</h4>
+        <h6>EN TU PUERTA, RÁPIDO Y FÁCIL</h6>
+        <hr />
+        <p>Ponemos a tu disposición nuestra experiencia y profesionalismo.</p>
+        <p>
+          Traer tus paquetes desde el exterior nunca fué tan fácil y rápido.
+        </p>
+        <button routerLink="/contacto">CONTÁCTENOS</button>
+      </div>
+      <div class="wrap-tarjetas">
+        <div class="tarjetas shadow bg-white">
+          <i class="fas fa-box"></i>
+          <h5>Casilleros</h5>
+          <p>
+            Adquiere tu casillero gratis. Empieza a traer tus paquetes sin
+            costos de más.
+          </p>
+          <a routerLink="/contacto">Me interesa...</a>
+        </div>
+        <div class="tarjetas shadow bg-white">
+          <i class="fas fa-comments-dollar"></i>
+          <h5>Compras por internet</h5>
+          <p>Envíanos el link de lo que deseas comprar y lo hacemos por ti.</p>
+          <a routerLink="/contacto">Me interesa...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="servicios" id="servicios-2">
+      <div class="wrap-tarjetas">
+        <div class="tarjetas shadow bg-white">
+          <i class="fas fa-truck"></i>
+          <h5>Movilidad</h5>
+          <p>
+            Entregamos en nuestras instalaciones y delivery en la provincia de
+            Panamá.
+          </p>
+          <a routerLink="/contacto">Me interesa...</a>
+        </div>
+        <div class="tarjetas shadow bg-white">
+          <i class="fas fa-credit-card"></i>
+          <h5>Facilidad de compra</h5>
+          <p>Si no tienes tarjeta de crédito, usa la nuestra!!.</p>
+          <a routerLink="/contacto">Me interesa...</a>
+        </div>
+      </div>
+      <img src="../../../assets/man-holding-box.png" alt="Servicios" />
+    </div>
+  </section>
+
+  <!-- TARJETAS -->
+  <section id="tarjetas">
+    <div id="background-azul"></div>
+    <div id="background-blanco"></div>
+    <div id="wrap-secciones">
+      <div id="textos">
+        <h2>¿Porqué escoger a JJBOXPTY?</h2>
+        <P>Puedes contar con nosotros para tus importaciones desde Miami.</P>
+        <p>Somos tu aliado en materia de importación de paquetes.</p>
+      </div>
+      <div id="tarjetas-escogernos">
+        <div class="card-desc">
+          <img src="../../../assets/card-1.png" alt="Bajo Costo" />
+          <span class="txt-cards-desc">
+            <h6>Bajo Costo</h6>
+            <p>Precio competitivo</p>
+          </span>
+        </div>
+        <div class="card-desc">
+          <img src="../../../assets/card-2.png" alt="Bajo Costo" />
+          <span class="txt-cards-desc">
+            <h6>Entregas rápidas</h6>
+            <p>A toda la ciudad</p>
+          </span>
+        </div>
+        <div class="card-desc">
+          <img src="../../../assets/card-3.png" alt="Bajo Costo" />
+          <span class="txt-cards-desc">
+            <h6>Plataforma 24/7</h6>
+            <p>Seguimiento cuando quieras</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATAFORMA SUGERIDAS -->
+  <section id="plataformas-sugeridas">
+    <swiper [config]="config2" id="swiper-secundario">
+      <ng-template swiperSlide>
+        <div class="wrap-plataformas-permitidas">
+          <img
+            src="../../../assets/logos-marca/ebay-logo.png"
+            alt="Nombre Plataforma"
+          />
+          <h4>Ebay</h4>
+          <p>
+            Compra y vende artículos electrónicos, autos, ropa, objetos de
+            colección, artículos deportivos, cámaras digitales, artículos para
+            bebé y más.
+          </p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="wrap-plataformas-permitidas">
+          <img
+            src="../../../assets/logos-marca/Amazon_logo.png"
+            alt="Nombre Plataforma"
+          />
+          <h4>Amazon</h4>
+          <p>
+            Encuentre ofertas, búsque y conozca todo tipo de marcas, desde las
+            más famosas, hasta marcas que representan novedades de productos y
+            servicios.
+          </p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="wrap-plataformas-permitidas">
+          <img
+            src="../../../assets/logos-marca/Walmart-Logo.png"
+            alt="Nombre Plataforma"
+          />
+          <h4>Walmart</h4>
+          <p>
+            vende al por menor y funciona como una cadena de hipermercados,
+            almacenes grandes de descuento y almacenes de comestibles.
+          </p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="wrap-plataformas-permitidas">
+          <img
+            src="../../../assets/logos-marca/Aliexpress-Logo.png"
+            alt="Nombre Plataforma"
+          />
+          <h4>AliExpress</h4>
+          <p>
+            Desde electrónica hasta juguetes, moda, muebles, accesorios, libros,
+            lo que sea. Como dice el dicho cliché, AliExpress es un jack de
+            muchos oficios.
+          </p>
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="wrap-plataformas-permitidas">
+          <img
+            src="../../../assets/logos-marca/Newegg-logo.png"
+            alt="Nombre Plataforma"
+          />
+          <h4>NewEgg</h4>
+          <p>
+            Su modelo se centra en la venta de productos electrónicos aunque
+            admiten más categorías, como cosmética y libros.
+          </p>
+        </div>
+      </ng-template>
+    </swiper>
+  </section>
+</main>
+
+<app-footer></app-footer>

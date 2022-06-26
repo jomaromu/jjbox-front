@@ -1,0 +1,392 @@
+﻿[
+    {
+        "id": "1",
+        "name": "Bocas del Toro",
+        "province_id": "1"
+    },
+    {
+        "id": "2",
+        "name": "Changuinola",
+        "province_id": "1"
+    },
+    {
+        "id": "3",
+        "name": "ChiriquÃ­ Grande",
+        "province_id": "1"
+    },
+    {
+        "id": "4",
+        "name": "Aguadulce",
+        "province_id": "2"
+    },
+    {
+        "id": "5",
+        "name": "AntÃ³n",
+        "province_id": "2"
+    },
+    {
+        "id": "6",
+        "name": "La Pintada",
+        "province_id": "2"
+    },
+    {
+        "id": "7",
+        "name": "NatÃ¡",
+        "province_id": "2"
+    },
+    {
+        "id": "8",
+        "name": "OlÃ¡",
+        "province_id": "2"
+    },
+    {
+        "id": "9",
+        "name": "PenonomÃ©",
+        "province_id": "2"
+    },
+    {
+        "id": "10",
+        "name": "ColÃ³n",
+        "province_id": "3"
+    },
+    {
+        "id": "11",
+        "name": "Chagres",
+        "province_id": "3"
+    },
+    {
+        "id": "12",
+        "name": "Donoso",
+        "province_id": "3"
+    },
+    {
+        "id": "13",
+        "name": "Portobelo",
+        "province_id": "3"
+    },
+    {
+        "id": "14",
+        "name": "Santa Isabel",
+        "province_id": "3"
+    },
+    {
+        "id": "15",
+        "name": "Alanje",
+        "province_id": "4"
+    },
+    {
+        "id": "16",
+        "name": "BarÃº",
+        "province_id": "4"
+    },
+    {
+        "id": "17",
+        "name": "BoquerÃ³",
+        "province_id": "4"
+    },
+    {
+        "id": "18",
+        "name": "Boquet",
+        "province_id": "4"
+    },
+    {
+        "id": "19",
+        "name": "Bugaba",
+        "province_id": "4"
+    },
+    {
+        "id": "20",
+        "name": "David",
+        "province_id": "4"
+    },
+    {
+        "id": "21",
+        "name": "Dolega",
+        "province_id": "4"
+    },
+    {
+        "id": "22",
+        "name": "Gualaca",
+        "province_id": "4"
+    },
+    {
+        "id": "23",
+        "name": "Remedios",
+        "province_id": "4"
+    },
+    {
+        "id": "24",
+        "name": "Renacimiento",
+        "province_id": "4"
+    },
+    {
+        "id": "25",
+        "name": "San FÃ©lix",
+        "province_id": "4"
+    },
+    {
+        "id": "26",
+        "name": "San Lorenzo",
+        "province_id": "4"
+    },
+    {
+        "id": "27",
+        "name": "TolÃ©",
+        "province_id": "4"
+    },
+    {
+        "id": "28",
+        "name": "Chepigana",
+        "province_id": "5"
+    },
+    {
+        "id": "29",
+        "name": "El Real de Santa MarÃ­a (Cabecera)",
+        "province_id": "5"
+    },
+    {
+        "id": "30",
+        "name": "ChitrÃ©",
+        "province_id": "6"
+    },
+    {
+        "id": "31",
+        "name": "Las Minas",
+        "province_id": "6"
+    },
+    {
+        "id": "32",
+        "name": "Los Pozos",
+        "province_id": "6"
+    },
+    {
+        "id": "33",
+        "name": "OcÃº",
+        "province_id": "6"
+    },
+    {
+        "id": "34",
+        "name": "Parita",
+        "province_id": "6"
+    },
+    {
+        "id": "35",
+        "name": "PesÃ©",
+        "province_id": "6"
+    },
+    {
+        "id": "36",
+        "name": "Santa MarÃ­a",
+        "province_id": "6"
+    },
+    {
+        "id": "37",
+        "name": "GuararÃ©",
+        "province_id": "7"
+    },
+    {
+        "id": "38",
+        "name": "Las Tablas",
+        "province_id": "7"
+    },
+    {
+        "id": "39",
+        "name": "Los Santos",
+        "province_id": "7"
+    },
+    {
+        "id": "40",
+        "name": "Macaracas",
+        "province_id": "7"
+    },
+    {
+        "id": "41",
+        "name": "PedasÃ­",
+        "province_id": "7"
+    },
+    {
+        "id": "42",
+        "name": "PocrÃ­",
+        "province_id": "7"
+    },
+    {
+        "id": "43",
+        "name": "TonosÃ­",
+        "province_id": "7"
+    },
+    {
+        "id": "44",
+        "name": "Balboa",
+        "province_id": "8"
+    },
+    {
+        "id": "45",
+        "name": "Chepo",
+        "province_id": "8"
+    },
+    {
+        "id": "46",
+        "name": "ChimÃ¡n",
+        "province_id": "8"
+    },
+    {
+        "id": "47",
+        "name": "PanamÃ¡",
+        "province_id": "8"
+    },
+    {
+        "id": "48",
+        "name": "San Miguelito",
+        "province_id": "8"
+    },
+    {
+        "id": "49",
+        "name": "Taboga",
+        "province_id": "8"
+    },
+    {
+        "id": "50",
+        "name": "Atalaya",
+        "province_id": "9"
+    },
+    {
+        "id": "51",
+        "name": "Calobre",
+        "province_id": "9"
+    },
+    {
+        "id": "52",
+        "name": "CaÃ±azas",
+        "province_id": "9"
+    },
+    {
+        "id": "53",
+        "name": "La Mesa",
+        "province_id": "9"
+    },
+    {
+        "id": "54",
+        "name": "Las Palmas",
+        "province_id": "9"
+    },
+    {
+        "id": "55",
+        "name": "Montijo",
+        "province_id": "9"
+    },
+    {
+        "id": "56",
+        "name": "RÃ­o de JesÃºs",
+        "province_id": "9"
+    },
+    {
+        "id": "57",
+        "name": "San Francisco",
+        "province_id": "9"
+    },
+    {
+        "id": "58",
+        "name": "Santa Fe",
+        "province_id": "9"
+    },
+    {
+        "id": "59",
+        "name": "Santiago",
+        "province_id": "9"
+    },
+    {
+        "id": "60",
+        "name": "SonÃ¡",
+        "province_id": "9"
+    },
+    {
+        "id": "61",
+        "name": "Mariato",
+        "province_id": "9"
+    },
+    {
+        "id": "62",
+        "name": "Comarca Kuna Yala",
+        "province_id": "10"
+    },
+    {
+        "id": "63",
+        "name": "CÃ©maco",
+        "province_id": "11"
+    },
+    {
+        "id": "64",
+        "name": "SambÃº",
+        "province_id": "11"
+    },
+    {
+        "id": "65",
+        "name": "Besiko",
+        "province_id": "12"
+    },
+    {
+        "id": "66",
+        "name": "MironÃ³",
+        "province_id": "12"
+    },
+    {
+        "id": "67",
+        "name": "MÃ¼na",
+        "province_id": "12"
+    },
+    {
+        "id": "68",
+        "name": "Nole Duima",
+        "province_id": "12"
+    },
+    {
+        "id": "69",
+        "name": "ÃÃ¼rÃ¼m",
+        "province_id": "12"
+    },
+    {
+        "id": "70",
+        "name": "KankintÃº",
+        "province_id": "12"
+    },
+    {
+        "id": "71",
+        "name": "KusapÃ­n",
+        "province_id": "12"
+    },
+    {
+        "id": "72",
+        "name": "Jirondai",
+        "province_id": "12"
+    },
+    {
+        "id": "73",
+        "name": "Santa Catalina o CalovÃ©bora (Bladeshia)",
+        "province_id": "12"
+    },
+    {
+        "id": "74",
+        "name": "ArraijÃ¡n",
+        "province_id": "13"
+    },
+    {
+        "id": "75",
+        "name": "Capira",
+        "province_id": "13"
+    },
+    {
+        "id": "76",
+        "name": "Chame",
+        "province_id": "13"
+    },
+    {
+        "id": "77",
+        "name": "La Chorrera",
+        "province_id": "13"
+    },
+    {
+        "id": "78",
+        "name": "San Carlos",
+        "province_id": "13"
+    }
+]

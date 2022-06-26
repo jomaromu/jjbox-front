@@ -1,0 +1,112 @@
+@import "../../../styles.scss";
+
+@media screen and(max-width: 992px) {
+  section#wrap-elementos img {
+    display: none;
+  }
+
+  section#wrap-elementos {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and(max-width: 576px) {
+  section#wrap-general {
+    width: 95% !important;
+  }
+
+  div#wrap-redes {
+    justify-content: space-evenly !important;
+  }
+}
+
+.item-active {
+  color: lighten($color: $color-principal, $amount: 50);
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(43, 43, 43);
+  @include fuente-principal($font-family-principal, rgb(255, 255, 255), 400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  #wrap-general {
+    // border: 1px solid yellow;
+    width: $page-width;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    #wrap-elementos {
+      // border: 1px solid lightblue;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      height: 250px;
+
+      img {
+        height: $alto-logo;
+      }
+
+      ul {
+        // background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        height: 110px;
+      }
+
+      ul li {
+        cursor: pointer;
+        transition: all ease 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      ul li:hover {
+        color: lighten($color: $color-principal, $amount: 50);
+      }
+
+      #wrap-redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+
+        p {
+          align-self: center;
+        }
+      }
+
+      #wrap-redes #redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.1rem;
+      }
+
+      #wrap-redes #redes li {
+        cursor: pointer;
+        transition: all ease 0.3s;
+
+        a {
+          color: white;
+        }
+      }
+
+      #wrap-redes #redes li:hover {
+        color: lighten($color: $color-principal, $amount: 50);
+      }
+    }
+  }
+}
